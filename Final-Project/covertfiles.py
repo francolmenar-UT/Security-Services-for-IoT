@@ -3,10 +3,12 @@ import re
 import subprocess
 import os
 #load filenames of all pcap files
-path = "C:\\Users\\Raphael\\github\\Security-Services-for-IoT\\Final-Project\\pcap\\raw\\MiLamp\\"
+#path = "C:\\Users\\Raphael\\github\\Security-Services-for-IoT\\Final-Project\\pcap\\raw\\MiLamp\\"
 #path = "C:\\Users\\Raphael\\github\\Security-Services-for-IoT\\Final-Project\\pcap\\raw\\Smart_Plug-HS100\\"
-#out_path = "C:\\Users\\Raphael\\github\\Security-Services-for-IoT\\Final-Project\\pcap\\processed\\splug-csv\\"
-out_path = "C:\\Users\\Raphael\\github\\Security-Services-for-IoT\\Final-Project\\pcap\\processed\\csv-files\\"
+path = "C:\\Users\\Raphael\\github\\Security-Services-for-IoT\\Final-Project\\pcap\\processed\\Smart_Plug-HS100\\"
+
+out_path = "C:\\Users\\Raphael\\github\\Security-Services-for-IoT\\Final-Project\\pcap\\processed\\splug-csv_processed\\"
+#out_path = "C:\\Users\\Raphael\\github\\Security-Services-for-IoT\\Final-Project\\pcap\\processed\\csv-files\\"
 filenames = (glob.glob(path + "*.pcapng"))
 
 #extract filenames
