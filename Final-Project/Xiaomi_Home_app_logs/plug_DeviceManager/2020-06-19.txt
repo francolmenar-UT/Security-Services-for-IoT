@@ -1,0 +1,2035 @@
+SmartHome 223: [DEBUG
+]-06-19 11: 32: 05.074 scanDeviceList in
+SmartHome 223: [DEBUG
+]-06-19 11: 32: 05.074 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 223: [DEBUG
+]-06-19 11: 32: 05.074 doScanDeviceList 176
+SmartHome 224: [DEBUG
+]-06-19 11: 32: 05.077 doScanDeviceList 187
+SmartHome 224: [DEBUG
+]-06-19 11: 32: 05.077 downloadDeviceList in mIsDownloading=false
+SmartHome 224: [DEBUG
+]-06-19 11: 32: 05.079 downloadDeviceList issue device_list req
+SmartHome 224: [DEBUG
+]-06-19 11: 32: 05.085 doScanDeviceList end
+SmartHome 224: [DEBUG
+]-06-19 11: 32: 05.086 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 340: [DEBUG
+]-06-19 11: 32: 05.197 downloadDeviceList device_list req onSuccess
+SmartHome 341: [DEBUG
+]-06-19 11: 32: 05.198 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "1eeac4717fb464d35308484eb5fb289a",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.60",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Aus ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "off"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 341: [DEBUG
+]-06-19 11: 32: 05.198 processResult jsonObject has no result field
+SmartHome 341: [DEBUG
+]-06-19 11: 32: 05.200 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 341: [DEBUG
+]-06-19 11: 32: 05.200 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 199202: [DEBUG
+]-06-19 11: 35: 24.061 okhttp queuedCallsCount=16,runningCallsCount=5
+SmartHome 199202: [DEBUG
+]-06-19 11: 35: 24.063 okhttp queuedCallsCount=17,runningCallsCount=5
+SmartHome 199203: [DEBUG
+]-06-19 11: 35: 24.065 notifyScanState state=LOAD_CACHE_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 199203: [DEBUG
+]-06-19 11: 35: 24.065 okhttp queuedCallsCount=18,runningCallsCount=5
+SmartHome 199807: [DEBUG
+]-06-19 11: 35: 24.661 downloadDeviceList device_list req onSuccess
+SmartHome 199807: [DEBUG
+]-06-19 11: 35: 24.662 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "1eeac4717fb464d35308484eb5fb289a",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.60",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 199808: [DEBUG
+]-06-19 11: 35: 24.662 processResult jsonObject has no result field
+SmartHome 199808: [DEBUG
+]-06-19 11: 35: 24.667 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 199809: [DEBUG
+]-06-19 11: 35: 24.667 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 0: [DEBUG
+]-06-19 11: 35: 45.482 scanDeviceList in
+SmartHome 1: [DEBUG
+]-06-19 11: 35: 45.483 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 1: [DEBUG
+]-06-19 11: 35: 45.483 doScanDeviceList 176
+SmartHome 2: [DEBUG
+]-06-19 11: 35: 45.484 doScanDeviceList 187
+SmartHome 2: [DEBUG
+]-06-19 11: 35: 45.496 downloadDeviceList in mIsDownloading=false
+SmartHome 2: [DEBUG
+]-06-19 11: 35: 45.505 downloadDeviceList issue device_list req
+SmartHome 23: [DEBUG
+]-06-19 11: 35: 45.520 doScanDeviceList end
+SmartHome 23: [DEBUG
+]-06-19 11: 35: 45.522 notifyScanState state=START_SUCCESS,mScanningState=0,mDownloaded=false,mWorkingList size=1
+SmartHome 47: [DEBUG
+]-06-19 11: 35: 45.554 notifyScanState state=LOAD_CACHE_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 127: [DEBUG
+]-06-19 11: 35: 45.637 downloadDeviceList device_list req onSuccess
+SmartHome 149: [DEBUG
+]-06-19 11: 35: 45.657 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "1eeac4717fb464d35308484eb5fb289a",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.60",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 149: [DEBUG
+]-06-19 11: 35: 45.658 processResult jsonObject has no result field
+SmartHome 149: [DEBUG
+]-06-19 11: 35: 45.661 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 150: [DEBUG
+]-06-19 11: 35: 45.661 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 795: [DEBUG
+]-06-19 11: 35: 46.304 scanDeviceList in
+SmartHome 795: [DEBUG
+]-06-19 11: 35: 46.304 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 796: [DEBUG
+]-06-19 11: 35: 46.304 doScanDeviceList 176
+SmartHome 811: [DEBUG
+]-06-19 11: 35: 46.318 doScanDeviceList 187
+SmartHome 811: [DEBUG
+]-06-19 11: 35: 46.320 downloadDeviceList in mIsDownloading=false
+SmartHome 812: [DEBUG
+]-06-19 11: 35: 46.325 downloadDeviceList issue device_list req
+SmartHome 812: [DEBUG
+]-06-19 11: 35: 46.328 doScanDeviceList end
+SmartHome 812: [DEBUG
+]-06-19 11: 35: 46.328 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 1051: [DEBUG
+]-06-19 11: 35: 46.555 downloadDeviceList device_list req onSuccess
+SmartHome 1052: [DEBUG
+]-06-19 11: 35: 46.555 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "1eeac4717fb464d35308484eb5fb289a",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.60",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 1052: [DEBUG
+]-06-19 11: 35: 46.558 processResult jsonObject has no result field
+SmartHome 1052: [DEBUG
+]-06-19 11: 35: 46.559 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 1052: [DEBUG
+]-06-19 11: 35: 46.559 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 64086: [DEBUG
+]-06-19 11: 36: 49.593 scanDeviceList in
+SmartHome 64087: [DEBUG
+]-06-19 11: 36: 49.593 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 64088: [DEBUG
+]-06-19 11: 36: 49.593 doScanDeviceList 176
+SmartHome 64107: [DEBUG
+]-06-19 11: 36: 49.607 doScanDeviceList 187
+SmartHome 64107: [DEBUG
+]-06-19 11: 36: 49.608 downloadDeviceList in mIsDownloading=false
+SmartHome 64107: [DEBUG
+]-06-19 11: 36: 49.610 downloadDeviceList issue device_list req
+SmartHome 64108: [DEBUG
+]-06-19 11: 36: 49.613 doScanDeviceList end
+SmartHome 64108: [DEBUG
+]-06-19 11: 36: 49.613 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 64108: [DEBUG
+]-06-19 11: 36: 49.623 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 64108: [DEBUG
+]-06-19 11: 36: 49.625 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 64492: [DEBUG
+]-06-19 11: 36: 49.985 downloadDeviceList device_list req onSuccess
+SmartHome 64492: [DEBUG
+]-06-19 11: 36: 49.986 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "1eeac4717fb464d35308484eb5fb289a",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.60",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 64492: [DEBUG
+]-06-19 11: 36: 49.987 processResult jsonObject has no result field
+SmartHome 64493: [DEBUG
+]-06-19 11: 36: 49.991 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 64493: [DEBUG
+]-06-19 11: 36: 49.996 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 0: [DEBUG
+]-06-19 11: 39: 52.407 scanDeviceList in
+SmartHome 2: [DEBUG
+]-06-19 11: 39: 52.409 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 2: [DEBUG
+]-06-19 11: 39: 52.410 doScanDeviceList 176
+SmartHome 2: [DEBUG
+]-06-19 11: 39: 52.413 doScanDeviceList 187
+SmartHome 2: [DEBUG
+]-06-19 11: 39: 52.418 downloadDeviceList in mIsDownloading=false
+SmartHome 3: [DEBUG
+]-06-19 11: 39: 52.421 downloadDeviceList issue device_list req
+SmartHome 3: [DEBUG
+]-06-19 11: 39: 52.426 doScanDeviceList end
+SmartHome 3: [DEBUG
+]-06-19 11: 39: 52.431 notifyScanState state=START_SUCCESS,mScanningState=0,mDownloaded=false,mWorkingList size=1
+SmartHome 18: [DEBUG
+]-06-19 11: 39: 52.449 notifyScanState state=LOAD_CACHE_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 212: [DEBUG
+]-06-19 11: 39: 52.636 downloadDeviceList device_list req onSuccess
+SmartHome 213: [DEBUG
+]-06-19 11: 39: 52.638 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "1eeac4717fb464d35308484eb5fb289a",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.60",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 213: [DEBUG
+]-06-19 11: 39: 52.639 processResult jsonObject has no result field
+SmartHome 213: [DEBUG
+]-06-19 11: 39: 52.651 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 213: [DEBUG
+]-06-19 11: 39: 52.651 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 853: [DEBUG
+]-06-19 11: 39: 53.283 scanDeviceList in
+SmartHome 853: [DEBUG
+]-06-19 11: 39: 53.283 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 855: [DEBUG
+]-06-19 11: 39: 53.283 doScanDeviceList 176
+SmartHome 869: [DEBUG
+]-06-19 11: 39: 53.295 doScanDeviceList 187
+SmartHome 869: [DEBUG
+]-06-19 11: 39: 53.305 downloadDeviceList in mIsDownloading=false
+SmartHome 869: [DEBUG
+]-06-19 11: 39: 53.306 downloadDeviceList issue device_list req
+SmartHome 888: [DEBUG
+]-06-19 11: 39: 53.310 doScanDeviceList end
+SmartHome 889: [DEBUG
+]-06-19 11: 39: 53.310 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 889: [DEBUG
+]-06-19 11: 39: 53.325 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 1184: [DEBUG
+]-06-19 11: 39: 53.608 downloadDeviceList device_list req onSuccess
+SmartHome 1185: [DEBUG
+]-06-19 11: 39: 53.608 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "1eeac4717fb464d35308484eb5fb289a",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.60",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 1185: [DEBUG
+]-06-19 11: 39: 53.609 processResult jsonObject has no result field
+SmartHome 1185: [DEBUG
+]-06-19 11: 39: 53.609 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 1185: [DEBUG
+]-06-19 11: 39: 53.609 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 0: [DEBUG
+]-06-19 11: 45: 08.023 scanDeviceList in
+SmartHome 0: [DEBUG
+]-06-19 11: 45: 08.023 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 0: [DEBUG
+]-06-19 11: 45: 08.024 doScanDeviceList 176
+SmartHome 0: [DEBUG
+]-06-19 11: 45: 08.024 doScanDeviceList 187
+SmartHome 1: [DEBUG
+]-06-19 11: 45: 08.028 downloadDeviceList in mIsDownloading=false
+SmartHome 1: [DEBUG
+]-06-19 11: 45: 08.034 downloadDeviceList issue device_list req
+SmartHome 1: [DEBUG
+]-06-19 11: 45: 08.043 doScanDeviceList end
+SmartHome 1: [DEBUG
+]-06-19 11: 45: 08.044 notifyScanState state=START_SUCCESS,mScanningState=0,mDownloaded=false,mWorkingList size=1
+SmartHome 1: [DEBUG
+]-06-19 11: 45: 08.059 notifyScanState state=LOAD_CACHE_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 144: [DEBUG
+]-06-19 11: 45: 08.193 downloadDeviceList device_list req onSuccess
+SmartHome 159: [DEBUG
+]-06-19 11: 45: 08.210 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "1eeac4717fb464d35308484eb5fb289a",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.60",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 159: [DEBUG
+]-06-19 11: 45: 08.210 processResult jsonObject has no result field
+SmartHome 160: [DEBUG
+]-06-19 11: 45: 08.211 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 160: [DEBUG
+]-06-19 11: 45: 08.212 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 888: [DEBUG
+]-06-19 11: 45: 08.941 scanDeviceList in
+SmartHome 889: [DEBUG
+]-06-19 11: 45: 08.943 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 889: [DEBUG
+]-06-19 11: 45: 08.943 doScanDeviceList 176
+SmartHome 889: [DEBUG
+]-06-19 11: 45: 08.945 doScanDeviceList 187
+SmartHome 889: [DEBUG
+]-06-19 11: 45: 08.945 downloadDeviceList in mIsDownloading=false
+SmartHome 889: [DEBUG
+]-06-19 11: 45: 08.946 downloadDeviceList issue device_list req
+SmartHome 900: [DEBUG
+]-06-19 11: 45: 08.951 doScanDeviceList end
+SmartHome 900: [DEBUG
+]-06-19 11: 45: 08.952 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 1105: [DEBUG
+]-06-19 11: 45: 09.153 downloadDeviceList device_list req onSuccess
+SmartHome 1105: [DEBUG
+]-06-19 11: 45: 09.153 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "1eeac4717fb464d35308484eb5fb289a",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.60",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 1106: [DEBUG
+]-06-19 11: 45: 09.154 processResult jsonObject has no result field
+SmartHome 1106: [DEBUG
+]-06-19 11: 45: 09.155 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 1106: [DEBUG
+]-06-19 11: 45: 09.155 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 1106: [DEBUG
+]-06-19 11: 45: 09.157 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 0: [DEBUG
+]-06-19 11: 47: 26.638 scanDeviceList in
+SmartHome 2: [DEBUG
+]-06-19 11: 47: 26.639 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 2: [DEBUG
+]-06-19 11: 47: 26.639 doScanDeviceList 176
+SmartHome 2: [DEBUG
+]-06-19 11: 47: 26.640 doScanDeviceList 187
+SmartHome 3: [DEBUG
+]-06-19 11: 47: 26.643 downloadDeviceList in mIsDownloading=false
+SmartHome 3: [DEBUG
+]-06-19 11: 47: 26.646 downloadDeviceList issue device_list req
+SmartHome 3: [DEBUG
+]-06-19 11: 47: 26.653 doScanDeviceList end
+SmartHome 4: [DEBUG
+]-06-19 11: 47: 26.653 notifyScanState state=START_SUCCESS,mScanningState=0,mDownloaded=false,mWorkingList size=1
+SmartHome 21: [DEBUG
+]-06-19 11: 47: 26.672 notifyScanState state=LOAD_CACHE_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 857: [DEBUG
+]-06-19 11: 47: 27.499 scanDeviceList in
+SmartHome 857: [DEBUG
+]-06-19 11: 47: 27.499 doScanDeviceList mScanLocal=true,mIsWorking=true
+SmartHome 858: [DEBUG
+]-06-19 11: 47: 27.501 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 858: [DEBUG
+]-06-19 11: 47: 27.504 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 858: [DEBUG
+]-06-19 11: 47: 27.512 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 1828: [DEBUG
+]-06-19 11: 47: 28.477 downloadDeviceList device_list req onSuccess
+SmartHome 1830: [DEBUG
+]-06-19 11: 47: 28.477 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 1831: [DEBUG
+]-06-19 11: 47: 28.478 processResult jsonObject has no result field
+SmartHome 1831: [DEBUG
+]-06-19 11: 47: 28.479 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 1832: [DEBUG
+]-06-19 11: 47: 28.479 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 1832: [DEBUG
+]-06-19 11: 47: 28.485 scanDeviceList in
+SmartHome 1833: [DEBUG
+]-06-19 11: 47: 28.485 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 1833: [DEBUG
+]-06-19 11: 47: 28.485 doScanDeviceList 176
+SmartHome 1833: [DEBUG
+]-06-19 11: 47: 28.488 doScanDeviceList 187
+SmartHome 1834: [DEBUG
+]-06-19 11: 47: 28.488 downloadDeviceList in mIsDownloading=false
+SmartHome 1834: [DEBUG
+]-06-19 11: 47: 28.490 downloadDeviceList issue device_list req
+SmartHome 1835: [DEBUG
+]-06-19 11: 47: 28.490 okhttp queuedCallsCount=17,runningCallsCount=5
+SmartHome 1835: [DEBUG
+]-06-19 11: 47: 28.494 doScanDeviceList end
+SmartHome 1835: [DEBUG
+]-06-19 11: 47: 28.494 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 42183: [DEBUG
+]-06-19 11: 48: 08.821 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 42183: [DEBUG
+]-06-19 11: 48: 08.821 doScanDeviceList 176
+SmartHome 42184: [DEBUG
+]-06-19 11: 48: 08.821 doScanDeviceList 187
+SmartHome 42187: [DEBUG
+]-06-19 11: 48: 08.821 downloadDeviceList in mIsDownloading=false
+SmartHome 42187: [DEBUG
+]-06-19 11: 48: 08.827 downloadDeviceList issue device_list req
+SmartHome 42188: [DEBUG
+]-06-19 11: 48: 08.831 doScanDeviceList end
+SmartHome 42235: [DEBUG
+]-06-19 11: 48: 08.872 downloadDeviceList device_list req onFailure
+SmartHome 42236: [DEBUG
+]-06-19 11: 48: 08.873 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 42236: [DEBUG
+]-06-19 11: 48: 08.873 notifyClient UPDATE_DEVICE_LIST
+SmartHome 46833: [DEBUG
+]-06-19 11: 48: 13.457 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 46834: [DEBUG
+]-06-19 11: 48: 13.458 doScanDeviceList 176
+SmartHome 46834: [DEBUG
+]-06-19 11: 48: 13.458 doScanDeviceList 187
+SmartHome 46835: [DEBUG
+]-06-19 11: 48: 13.458 downloadDeviceList in mIsDownloading=false
+SmartHome 46835: [DEBUG
+]-06-19 11: 48: 13.468 downloadDeviceList issue device_list req
+SmartHome 46836: [DEBUG
+]-06-19 11: 48: 13.473 doScanDeviceList end
+SmartHome 47346: [DEBUG
+]-06-19 11: 48: 14.000 downloadDeviceList device_list req onFailure
+SmartHome 47347: [DEBUG
+]-06-19 11: 48: 14.001 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 47347: [DEBUG
+]-06-19 11: 48: 14.002 notifyClient UPDATE_DEVICE_LIST
+SmartHome 50324: [DEBUG
+]-06-19 11: 48: 16.946 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 50325: [DEBUG
+]-06-19 11: 48: 16.946 doScanDeviceList 176
+SmartHome 50326: [DEBUG
+]-06-19 11: 48: 16.946 doScanDeviceList 187
+SmartHome 50327: [DEBUG
+]-06-19 11: 48: 16.946 downloadDeviceList in mIsDownloading=false
+SmartHome 50327: [DEBUG
+]-06-19 11: 48: 16.954 downloadDeviceList issue device_list req
+SmartHome 50327: [DEBUG
+]-06-19 11: 48: 16.962 doScanDeviceList end
+SmartHome 50327: [DEBUG
+]-06-19 11: 48: 16.976 downloadDeviceList device_list req onFailure
+SmartHome 50327: [DEBUG
+]-06-19 11: 48: 16.977 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 50328: [DEBUG
+]-06-19 11: 48: 16.978 notifyClient UPDATE_DEVICE_LIST
+SmartHome 50348: [DEBUG
+]-06-19 11: 48: 17.000 scanDeviceList in
+SmartHome 50349: [DEBUG
+]-06-19 11: 48: 17.000 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 50349: [DEBUG
+]-06-19 11: 48: 17.000 doScanDeviceList 176
+SmartHome 50349: [DEBUG
+]-06-19 11: 48: 17.003 doScanDeviceList 187
+SmartHome 50349: [DEBUG
+]-06-19 11: 48: 17.003 downloadDeviceList in mIsDownloading=false
+SmartHome 50349: [DEBUG
+]-06-19 11: 48: 17.005 downloadDeviceList issue device_list req
+SmartHome 50349: [DEBUG
+]-06-19 11: 48: 17.009 doScanDeviceList end
+SmartHome 50349: [DEBUG
+]-06-19 11: 48: 17.009 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 50349: [DEBUG
+]-06-19 11: 48: 17.011 downloadDeviceList device_list req onFailure
+SmartHome 50349: [DEBUG
+]-06-19 11: 48: 17.011 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 54677: [DEBUG
+]-06-19 11: 48: 21.308 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 54677: [DEBUG
+]-06-19 11: 48: 21.308 doScanDeviceList 176
+SmartHome 54678: [DEBUG
+]-06-19 11: 48: 21.308 doScanDeviceList 187
+SmartHome 54678: [DEBUG
+]-06-19 11: 48: 21.309 downloadDeviceList in mIsDownloading=false
+SmartHome 54678: [DEBUG
+]-06-19 11: 48: 21.315 downloadDeviceList issue device_list req
+SmartHome 54678: [DEBUG
+]-06-19 11: 48: 21.319 doScanDeviceList end
+SmartHome 54678: [DEBUG
+]-06-19 11: 48: 21.320 downloadDeviceList device_list req onFailure
+SmartHome 54678: [DEBUG
+]-06-19 11: 48: 21.321 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 54678: [DEBUG
+]-06-19 11: 48: 21.321 notifyClient UPDATE_DEVICE_LIST
+SmartHome 77216: [DEBUG
+]-06-19 11: 48: 43.847 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 77216: [DEBUG
+]-06-19 11: 48: 43.847 doScanDeviceList 176
+SmartHome 77217: [DEBUG
+]-06-19 11: 48: 43.848 doScanDeviceList 187
+SmartHome 77218: [DEBUG
+]-06-19 11: 48: 43.848 downloadDeviceList in mIsDownloading=false
+SmartHome 77219: [DEBUG
+]-06-19 11: 48: 43.850 downloadDeviceList issue device_list req
+SmartHome 77219: [DEBUG
+]-06-19 11: 48: 43.857 doScanDeviceList end
+SmartHome 77219: [DEBUG
+]-06-19 11: 48: 43.876 downloadDeviceList device_list req onFailure
+SmartHome 77220: [DEBUG
+]-06-19 11: 48: 43.877 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 77224: [DEBUG
+]-06-19 11: 48: 43.877 notifyClient UPDATE_DEVICE_LIST
+SmartHome 78895: [DEBUG
+]-06-19 11: 48: 45.534 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 78895: [DEBUG
+]-06-19 11: 48: 45.534 doScanDeviceList 176
+SmartHome 78896: [DEBUG
+]-06-19 11: 48: 45.534 doScanDeviceList 187
+SmartHome 78896: [DEBUG
+]-06-19 11: 48: 45.534 downloadDeviceList in mIsDownloading=false
+SmartHome 78896: [DEBUG
+]-06-19 11: 48: 45.537 downloadDeviceList issue device_list req
+SmartHome 78896: [DEBUG
+]-06-19 11: 48: 45.542 downloadDeviceList device_list req onFailure
+SmartHome 78896: [DEBUG
+]-06-19 11: 48: 45.543 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 78896: [DEBUG
+]-06-19 11: 48: 45.543 notifyClient UPDATE_DEVICE_LIST
+SmartHome 78897: [DEBUG
+]-06-19 11: 48: 45.544 doScanDeviceList end
+SmartHome 104884: [DEBUG
+]-06-19 11: 49: 11.497 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 104885: [DEBUG
+]-06-19 11: 49: 11.497 doScanDeviceList 176
+SmartHome 104885: [DEBUG
+]-06-19 11: 49: 11.497 doScanDeviceList 187
+SmartHome 104886: [DEBUG
+]-06-19 11: 49: 11.498 downloadDeviceList in mIsDownloading=false
+SmartHome 104886: [DEBUG
+]-06-19 11: 49: 11.506 scanDeviceList in
+SmartHome 104886: [DEBUG
+]-06-19 11: 49: 11.506 doScanDeviceList mScanLocal=true,mIsWorking=true
+SmartHome 104887: [DEBUG
+]-06-19 11: 49: 11.519 downloadDeviceList issue device_list req
+SmartHome 104887: [DEBUG
+]-06-19 11: 49: 11.525 doScanDeviceList end
+SmartHome 104887: [DEBUG
+]-06-19 11: 49: 11.532 downloadDeviceList device_list req onFailure
+SmartHome 104888: [DEBUG
+]-06-19 11: 49: 11.533 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 104888: [DEBUG
+]-06-19 11: 49: 11.533 notifyClient UPDATE_DEVICE_LIST
+SmartHome 104888: [DEBUG
+]-06-19 11: 49: 11.540 scanDeviceList in
+SmartHome 104889: [DEBUG
+]-06-19 11: 49: 11.541 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 104892: [DEBUG
+]-06-19 11: 49: 11.541 doScanDeviceList 176
+SmartHome 104904: [DEBUG
+]-06-19 11: 49: 11.545 doScanDeviceList 187
+SmartHome 104904: [DEBUG
+]-06-19 11: 49: 11.545 downloadDeviceList in mIsDownloading=false
+SmartHome 104905: [DEBUG
+]-06-19 11: 49: 11.556 downloadDeviceList issue device_list req
+SmartHome 104905: [DEBUG
+]-06-19 11: 49: 11.560 doScanDeviceList end
+SmartHome 104905: [DEBUG
+]-06-19 11: 49: 11.560 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 104906: [DEBUG
+]-06-19 11: 49: 11.560 downloadDeviceList device_list req onFailure
+SmartHome 104920: [DEBUG
+]-06-19 11: 49: 11.574 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 104920: [DEBUG
+]-06-19 11: 49: 11.575 notifyClient UPDATE_DEVICE_LIST
+SmartHome 109192: [DEBUG
+]-06-19 11: 49: 15.830 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 109192: [DEBUG
+]-06-19 11: 49: 15.830 doScanDeviceList 176
+SmartHome 109192: [DEBUG
+]-06-19 11: 49: 15.831 doScanDeviceList 187
+SmartHome 109192: [DEBUG
+]-06-19 11: 49: 15.831 downloadDeviceList in mIsDownloading=false
+SmartHome 109192: [DEBUG
+]-06-19 11: 49: 15.833 downloadDeviceList issue device_list req
+SmartHome 109192: [DEBUG
+]-06-19 11: 49: 15.840 downloadDeviceList device_list req onFailure
+SmartHome 109193: [DEBUG
+]-06-19 11: 49: 15.841 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 109193: [DEBUG
+]-06-19 11: 49: 15.841 notifyClient UPDATE_DEVICE_LIST
+SmartHome 109193: [DEBUG
+]-06-19 11: 49: 15.842 doScanDeviceList end
+SmartHome 119766: [DEBUG
+]-06-19 11: 49: 26.389 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 119766: [DEBUG
+]-06-19 11: 49: 26.389 doScanDeviceList 176
+SmartHome 119766: [DEBUG
+]-06-19 11: 49: 26.389 doScanDeviceList 187
+SmartHome 119766: [DEBUG
+]-06-19 11: 49: 26.389 downloadDeviceList in mIsDownloading=false
+SmartHome 119766: [DEBUG
+]-06-19 11: 49: 26.404 downloadDeviceList issue device_list req
+SmartHome 119767: [DEBUG
+]-06-19 11: 49: 26.410 doScanDeviceList end
+SmartHome 119767: [DEBUG
+]-06-19 11: 49: 26.425 downloadDeviceList device_list req onFailure
+SmartHome 119767: [DEBUG
+]-06-19 11: 49: 26.427 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 119767: [DEBUG
+]-06-19 11: 49: 26.427 notifyClient UPDATE_DEVICE_LIST
+SmartHome 121458: [DEBUG
+]-06-19 11: 49: 28.095 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 121458: [DEBUG
+]-06-19 11: 49: 28.095 doScanDeviceList 176
+SmartHome 121458: [DEBUG
+]-06-19 11: 49: 28.096 doScanDeviceList 187
+SmartHome 121459: [DEBUG
+]-06-19 11: 49: 28.096 downloadDeviceList in mIsDownloading=false
+SmartHome 121459: [DEBUG
+]-06-19 11: 49: 28.100 downloadDeviceList issue device_list req
+SmartHome 121459: [DEBUG
+]-06-19 11: 49: 28.106 doScanDeviceList end
+SmartHome 121459: [DEBUG
+]-06-19 11: 49: 28.107 downloadDeviceList device_list req onFailure
+SmartHome 121459: [DEBUG
+]-06-19 11: 49: 28.109 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 121459: [DEBUG
+]-06-19 11: 49: 28.109 notifyClient UPDATE_DEVICE_LIST
+SmartHome 158279: [DEBUG
+]-06-19 11: 50: 04.900 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 158279: [DEBUG
+]-06-19 11: 50: 04.900 doScanDeviceList 176
+SmartHome 158279: [DEBUG
+]-06-19 11: 50: 04.900 doScanDeviceList 187
+SmartHome 158280: [DEBUG
+]-06-19 11: 50: 04.900 downloadDeviceList in mIsDownloading=false
+SmartHome 158280: [DEBUG
+]-06-19 11: 50: 04.915 downloadDeviceList issue device_list req
+SmartHome 158281: [DEBUG
+]-06-19 11: 50: 04.923 doScanDeviceList end
+SmartHome 158281: [DEBUG
+]-06-19 11: 50: 04.942 downloadDeviceList device_list req onFailure
+SmartHome 158294: [DEBUG
+]-06-19 11: 50: 04.945 scanDeviceList in
+SmartHome 158295: [DEBUG
+]-06-19 11: 50: 04.945 doScanDeviceList mScanLocal=true,mIsWorking=true
+SmartHome 158295: [DEBUG
+]-06-19 11: 50: 04.945 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 158295: [DEBUG
+]-06-19 11: 50: 04.946 notifyClient UPDATE_DEVICE_LIST
+SmartHome 158295: [DEBUG
+]-06-19 11: 50: 04.950 scanDeviceList in
+SmartHome 158295: [DEBUG
+]-06-19 11: 50: 04.950 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 158295: [DEBUG
+]-06-19 11: 50: 04.950 doScanDeviceList 176
+SmartHome 158296: [DEBUG
+]-06-19 11: 50: 04.952 doScanDeviceList 187
+SmartHome 158296: [DEBUG
+]-06-19 11: 50: 04.952 downloadDeviceList in mIsDownloading=false
+SmartHome 158296: [DEBUG
+]-06-19 11: 50: 04.954 downloadDeviceList issue device_list req
+SmartHome 158296: [DEBUG
+]-06-19 11: 50: 04.956 doScanDeviceList end
+SmartHome 158296: [DEBUG
+]-06-19 11: 50: 04.956 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 158296: [DEBUG
+]-06-19 11: 50: 04.958 downloadDeviceList device_list req onFailure
+SmartHome 158306: [DEBUG
+]-06-19 11: 50: 04.958 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 158307: [DEBUG
+]-06-19 11: 50: 04.958 notifyClient UPDATE_DEVICE_LIST
+SmartHome 163865: [DEBUG
+]-06-19 11: 50: 10.496 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 163865: [DEBUG
+]-06-19 11: 50: 10.496 doScanDeviceList 176
+SmartHome 163865: [DEBUG
+]-06-19 11: 50: 10.496 doScanDeviceList 187
+SmartHome 163866: [DEBUG
+]-06-19 11: 50: 10.496 downloadDeviceList in mIsDownloading=false
+SmartHome 163866: [DEBUG
+]-06-19 11: 50: 10.505 downloadDeviceList issue device_list req
+SmartHome 163866: [DEBUG
+]-06-19 11: 50: 10.510 downloadDeviceList device_list req onFailure
+SmartHome 163866: [DEBUG
+]-06-19 11: 50: 10.510 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 163866: [DEBUG
+]-06-19 11: 50: 10.510 notifyClient UPDATE_DEVICE_LIST
+SmartHome 163866: [DEBUG
+]-06-19 11: 50: 10.517 doScanDeviceList end
+SmartHome 220159: [DEBUG
+]-06-19 11: 51: 06.776 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 220159: [DEBUG
+]-06-19 11: 51: 06.776 doScanDeviceList 176
+SmartHome 220160: [DEBUG
+]-06-19 11: 51: 06.776 doScanDeviceList 187
+SmartHome 220160: [DEBUG
+]-06-19 11: 51: 06.776 downloadDeviceList in mIsDownloading=false
+SmartHome 220161: [DEBUG
+]-06-19 11: 51: 06.790 downloadDeviceList issue device_list req
+SmartHome 220161: [DEBUG
+]-06-19 11: 51: 06.796 doScanDeviceList end
+SmartHome 220161: [DEBUG
+]-06-19 11: 51: 06.804 downloadDeviceList device_list req onFailure
+SmartHome 220162: [DEBUG
+]-06-19 11: 51: 06.804 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 220162: [DEBUG
+]-06-19 11: 51: 06.805 notifyClient UPDATE_DEVICE_LIST
+SmartHome 230945: [DEBUG
+]-06-19 11: 51: 17.560 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 230945: [DEBUG
+]-06-19 11: 51: 17.560 doScanDeviceList 176
+SmartHome 230946: [DEBUG
+]-06-19 11: 51: 17.560 doScanDeviceList 187
+SmartHome 230946: [DEBUG
+]-06-19 11: 51: 17.560 downloadDeviceList in mIsDownloading=false
+SmartHome 230947: [DEBUG
+]-06-19 11: 51: 17.582 downloadDeviceList issue device_list req
+SmartHome 230947: [DEBUG
+]-06-19 11: 51: 17.587 doScanDeviceList end
+SmartHome 230948: [DEBUG
+]-06-19 11: 51: 17.588 downloadDeviceList device_list req onFailure
+SmartHome 230948: [DEBUG
+]-06-19 11: 51: 17.589 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 230948: [DEBUG
+]-06-19 11: 51: 17.589 notifyClient UPDATE_DEVICE_LIST
+SmartHome 235360: [DEBUG
+]-06-19 11: 51: 21.994 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 235361: [DEBUG
+]-06-19 11: 51: 21.994 doScanDeviceList 176
+SmartHome 235361: [DEBUG
+]-06-19 11: 51: 21.994 doScanDeviceList 187
+SmartHome 235361: [DEBUG
+]-06-19 11: 51: 21.994 downloadDeviceList in mIsDownloading=false
+SmartHome 235361: [DEBUG
+]-06-19 11: 51: 21.996 downloadDeviceList issue device_list req
+SmartHome 235361: [DEBUG
+]-06-19 11: 51: 22.005 doScanDeviceList end
+SmartHome 235362: [DEBUG
+]-06-19 11: 51: 22.009 downloadDeviceList device_list req onFailure
+SmartHome 235362: [DEBUG
+]-06-19 11: 51: 22.009 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 235362: [DEBUG
+]-06-19 11: 51: 22.010 notifyClient UPDATE_DEVICE_LIST
+SmartHome 240630: [DEBUG
+]-06-19 11: 51: 27.241 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 240631: [DEBUG
+]-06-19 11: 51: 27.241 doScanDeviceList 176
+SmartHome 240631: [DEBUG
+]-06-19 11: 51: 27.241 doScanDeviceList 187
+SmartHome 240632: [DEBUG
+]-06-19 11: 51: 27.242 downloadDeviceList in mIsDownloading=false
+SmartHome 240632: [DEBUG
+]-06-19 11: 51: 27.259 downloadDeviceList issue device_list req
+SmartHome 240633: [DEBUG
+]-06-19 11: 51: 27.265 doScanDeviceList end
+SmartHome 240633: [DEBUG
+]-06-19 11: 51: 27.266 downloadDeviceList device_list req onFailure
+SmartHome 240634: [DEBUG
+]-06-19 11: 51: 27.267 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 240634: [DEBUG
+]-06-19 11: 51: 27.267 notifyClient UPDATE_DEVICE_LIST
+SmartHome 257736: [DEBUG
+]-06-19 11: 51: 44.361 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 257736: [DEBUG
+]-06-19 11: 51: 44.361 doScanDeviceList 176
+SmartHome 257737: [DEBUG
+]-06-19 11: 51: 44.361 doScanDeviceList 187
+SmartHome 257737: [DEBUG
+]-06-19 11: 51: 44.362 downloadDeviceList in mIsDownloading=false
+SmartHome 257738: [DEBUG
+]-06-19 11: 51: 44.368 downloadDeviceList issue device_list req
+SmartHome 257738: [DEBUG
+]-06-19 11: 51: 44.377 doScanDeviceList end
+SmartHome 257739: [DEBUG
+]-06-19 11: 51: 44.391 downloadDeviceList device_list req onFailure
+SmartHome 257739: [DEBUG
+]-06-19 11: 51: 44.393 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 257740: [DEBUG
+]-06-19 11: 51: 44.393 notifyClient UPDATE_DEVICE_LIST
+SmartHome 268345: [DEBUG
+]-06-19 11: 51: 54.976 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 268345: [DEBUG
+]-06-19 11: 51: 54.976 doScanDeviceList 176
+SmartHome 268346: [DEBUG
+]-06-19 11: 51: 54.976 doScanDeviceList 187
+SmartHome 268347: [DEBUG
+]-06-19 11: 51: 54.977 downloadDeviceList in mIsDownloading=false
+SmartHome 268347: [DEBUG
+]-06-19 11: 51: 54.984 downloadDeviceList issue device_list req
+SmartHome 268347: [DEBUG
+]-06-19 11: 51: 54.987 doScanDeviceList end
+SmartHome 268347: [DEBUG
+]-06-19 11: 51: 54.988 downloadDeviceList device_list req onFailure
+SmartHome 268351: [DEBUG
+]-06-19 11: 51: 54.989 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 268352: [DEBUG
+]-06-19 11: 51: 54.989 notifyClient UPDATE_DEVICE_LIST
+SmartHome 272976: [DEBUG
+]-06-19 11: 51: 59.614 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 272979: [DEBUG
+]-06-19 11: 51: 59.615 doScanDeviceList 176
+SmartHome 272979: [DEBUG
+]-06-19 11: 51: 59.615 doScanDeviceList 187
+SmartHome 272979: [DEBUG
+]-06-19 11: 51: 59.615 downloadDeviceList in mIsDownloading=false
+SmartHome 272979: [DEBUG
+]-06-19 11: 51: 59.619 downloadDeviceList issue device_list req
+SmartHome 272980: [DEBUG
+]-06-19 11: 51: 59.624 doScanDeviceList end
+SmartHome 272980: [DEBUG
+]-06-19 11: 51: 59.625 downloadDeviceList device_list req onFailure
+SmartHome 272980: [DEBUG
+]-06-19 11: 51: 59.626 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 272980: [DEBUG
+]-06-19 11: 51: 59.626 notifyClient UPDATE_DEVICE_LIST
+SmartHome 283755: [DEBUG
+]-06-19 11: 52: 10.384 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 283756: [DEBUG
+]-06-19 11: 52: 10.384 doScanDeviceList 176
+SmartHome 283756: [DEBUG
+]-06-19 11: 52: 10.384 doScanDeviceList 187
+SmartHome 283757: [DEBUG
+]-06-19 11: 52: 10.385 downloadDeviceList in mIsDownloading=false
+SmartHome 283757: [DEBUG
+]-06-19 11: 52: 10.393 downloadDeviceList issue device_list req
+SmartHome 283758: [DEBUG
+]-06-19 11: 52: 10.397 doScanDeviceList end
+SmartHome 283760: [DEBUG
+]-06-19 11: 52: 10.402 downloadDeviceList device_list req onFailure
+SmartHome 283763: [DEBUG
+]-06-19 11: 52: 10.403 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 283764: [DEBUG
+]-06-19 11: 52: 10.404 notifyClient UPDATE_DEVICE_LIST
+SmartHome 289849: [DEBUG
+]-06-19 11: 52: 16.485 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 289850: [DEBUG
+]-06-19 11: 52: 16.485 doScanDeviceList 176
+SmartHome 289851: [DEBUG
+]-06-19 11: 52: 16.485 doScanDeviceList 187
+SmartHome 289851: [DEBUG
+]-06-19 11: 52: 16.486 downloadDeviceList in mIsDownloading=false
+SmartHome 289852: [DEBUG
+]-06-19 11: 52: 16.488 downloadDeviceList issue device_list req
+SmartHome 289852: [DEBUG
+]-06-19 11: 52: 16.491 doScanDeviceList end
+SmartHome 289852: [DEBUG
+]-06-19 11: 52: 16.497 downloadDeviceList device_list req onFailure
+SmartHome 289853: [DEBUG
+]-06-19 11: 52: 16.498 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 289853: [DEBUG
+]-06-19 11: 52: 16.498 notifyClient UPDATE_DEVICE_LIST
+SmartHome 295391: [DEBUG
+]-06-19 11: 52: 22.024 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 295391: [DEBUG
+]-06-19 11: 52: 22.025 doScanDeviceList 176
+SmartHome 295393: [DEBUG
+]-06-19 11: 52: 22.025 doScanDeviceList 187
+SmartHome 295393: [DEBUG
+]-06-19 11: 52: 22.025 downloadDeviceList in mIsDownloading=false
+SmartHome 295394: [DEBUG
+]-06-19 11: 52: 22.031 downloadDeviceList issue device_list req
+SmartHome 295394: [DEBUG
+]-06-19 11: 52: 22.034 doScanDeviceList end
+SmartHome 295395: [DEBUG
+]-06-19 11: 52: 22.036 downloadDeviceList device_list req onFailure
+SmartHome 295395: [DEBUG
+]-06-19 11: 52: 22.038 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 295396: [DEBUG
+]-06-19 11: 52: 22.038 notifyClient UPDATE_DEVICE_LIST
+SmartHome 305095: [DEBUG
+]-06-19 11: 52: 31.728 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 305095: [DEBUG
+]-06-19 11: 52: 31.728 doScanDeviceList 176
+SmartHome 305095: [DEBUG
+]-06-19 11: 52: 31.728 doScanDeviceList 187
+SmartHome 305096: [DEBUG
+]-06-19 11: 52: 31.728 downloadDeviceList in mIsDownloading=false
+SmartHome 305096: [DEBUG
+]-06-19 11: 52: 31.730 downloadDeviceList issue device_list req
+SmartHome 305096: [DEBUG
+]-06-19 11: 52: 31.733 doScanDeviceList end
+SmartHome 305097: [DEBUG
+]-06-19 11: 52: 31.756 downloadDeviceList device_list req onFailure
+SmartHome 305097: [DEBUG
+]-06-19 11: 52: 31.757 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 305097: [DEBUG
+]-06-19 11: 52: 31.757 notifyClient UPDATE_DEVICE_LIST
+SmartHome 315776: [DEBUG
+]-06-19 11: 52: 42.410 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 315777: [DEBUG
+]-06-19 11: 52: 42.410 doScanDeviceList 176
+SmartHome 315777: [DEBUG
+]-06-19 11: 52: 42.410 doScanDeviceList 187
+SmartHome 315777: [DEBUG
+]-06-19 11: 52: 42.410 downloadDeviceList in mIsDownloading=false
+SmartHome 315778: [DEBUG
+]-06-19 11: 52: 42.414 downloadDeviceList issue device_list req
+SmartHome 315778: [DEBUG
+]-06-19 11: 52: 42.420 doScanDeviceList end
+SmartHome 315778: [DEBUG
+]-06-19 11: 52: 42.422 downloadDeviceList device_list req onFailure
+SmartHome 315778: [DEBUG
+]-06-19 11: 52: 42.423 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 315778: [DEBUG
+]-06-19 11: 52: 42.423 notifyClient UPDATE_DEVICE_LIST
+SmartHome 0: [DEBUG
+]-06-19 11: 53: 44.896 scanDeviceList in
+SmartHome 1: [DEBUG
+]-06-19 11: 53: 44.896 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 1: [DEBUG
+]-06-19 11: 53: 44.897 doScanDeviceList 176
+SmartHome 2: [DEBUG
+]-06-19 11: 53: 44.897 doScanDeviceList 187
+SmartHome 2: [DEBUG
+]-06-19 11: 53: 44.902 downloadDeviceList in mIsDownloading=false
+SmartHome 2: [DEBUG
+]-06-19 11: 53: 44.906 downloadDeviceList issue device_list req
+SmartHome 2: [DEBUG
+]-06-19 11: 53: 44.913 doScanDeviceList end
+SmartHome 2: [DEBUG
+]-06-19 11: 53: 44.914 notifyScanState state=START_SUCCESS,mScanningState=0,mDownloaded=false,mWorkingList size=1
+SmartHome 18: [DEBUG
+]-06-19 11: 53: 44.926 notifyScanState state=LOAD_CACHE_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 120: [DEBUG
+]-06-19 11: 53: 45.002 downloadDeviceList device_list req onFailure
+SmartHome 121: [DEBUG
+]-06-19 11: 53: 45.006 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=false,mWorkingList size=1
+SmartHome 932: [DEBUG
+]-06-19 11: 53: 45.843 scanDeviceList in
+SmartHome 932: [DEBUG
+]-06-19 11: 53: 45.843 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 932: [DEBUG
+]-06-19 11: 53: 45.844 doScanDeviceList 176
+SmartHome 942: [DEBUG
+]-06-19 11: 53: 45.852 doScanDeviceList 187
+SmartHome 942: [DEBUG
+]-06-19 11: 53: 45.854 downloadDeviceList in mIsDownloading=false
+SmartHome 943: [DEBUG
+]-06-19 11: 53: 45.861 downloadDeviceList issue device_list req
+SmartHome 960: [DEBUG
+]-06-19 11: 53: 45.865 doScanDeviceList end
+SmartHome 960: [DEBUG
+]-06-19 11: 53: 45.865 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 960: [DEBUG
+]-06-19 11: 53: 45.868 downloadDeviceList device_list req onFailure
+SmartHome 960: [DEBUG
+]-06-19 11: 53: 45.879 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=false,mWorkingList size=1
+SmartHome 54972: [DEBUG
+]-06-19 11: 54: 39.865 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 54973: [DEBUG
+]-06-19 11: 54: 39.865 doScanDeviceList 176
+SmartHome 54973: [DEBUG
+]-06-19 11: 54: 39.867 doScanDeviceList 187
+SmartHome 54973: [DEBUG
+]-06-19 11: 54: 39.867 downloadDeviceList in mIsDownloading=false
+SmartHome 54974: [DEBUG
+]-06-19 11: 54: 39.869 downloadDeviceList issue device_list req
+SmartHome 54974: [DEBUG
+]-06-19 11: 54: 39.874 doScanDeviceList end
+SmartHome 54974: [DEBUG
+]-06-19 11: 54: 39.890 downloadDeviceList device_list req onFailure
+SmartHome 54974: [DEBUG
+]-06-19 11: 54: 39.892 scanDeviceList in
+SmartHome 54974: [DEBUG
+]-06-19 11: 54: 39.892 doScanDeviceList mScanLocal=true,mIsWorking=true
+SmartHome 54974: [DEBUG
+]-06-19 11: 54: 39.893 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=false,mWorkingList size=0
+SmartHome 54975: [DEBUG
+]-06-19 11: 54: 39.893 notifyClient UPDATE_DEVICE_LIST
+SmartHome 55000: [DEBUG
+]-06-19 11: 54: 39.902 scanDeviceList in
+SmartHome 55000: [DEBUG
+]-06-19 11: 54: 39.902 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 55001: [DEBUG
+]-06-19 11: 54: 39.903 doScanDeviceList 176
+SmartHome 55001: [DEBUG
+]-06-19 11: 54: 39.904 doScanDeviceList 187
+SmartHome 55001: [DEBUG
+]-06-19 11: 54: 39.904 downloadDeviceList in mIsDownloading=false
+SmartHome 55001: [DEBUG
+]-06-19 11: 54: 39.906 downloadDeviceList issue device_list req
+SmartHome 55001: [DEBUG
+]-06-19 11: 54: 39.910 downloadDeviceList device_list req onFailure
+SmartHome 55001: [DEBUG
+]-06-19 11: 54: 39.912 doScanDeviceList end
+SmartHome 55002: [DEBUG
+]-06-19 11: 54: 39.912 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 55002: [DEBUG
+]-06-19 11: 54: 39.913 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=false,mWorkingList size=0
+SmartHome 55002: [DEBUG
+]-06-19 11: 54: 39.913 notifyClient UPDATE_DEVICE_LIST
+SmartHome 80470: [DEBUG
+]-06-19 11: 55: 05.360 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 80470: [DEBUG
+]-06-19 11: 55: 05.360 doScanDeviceList 176
+SmartHome 80470: [DEBUG
+]-06-19 11: 55: 05.360 doScanDeviceList 187
+SmartHome 80470: [DEBUG
+]-06-19 11: 55: 05.360 downloadDeviceList in mIsDownloading=false
+SmartHome 80471: [DEBUG
+]-06-19 11: 55: 05.371 downloadDeviceList issue device_list req
+SmartHome 80471: [DEBUG
+]-06-19 11: 55: 05.377 downloadDeviceList device_list req onFailure
+SmartHome 80471: [DEBUG
+]-06-19 11: 55: 05.377 notifyScanState state=SYNC_SERVER_FAILED,mScanningState=3,mDownloaded=false,mWorkingList size=0
+SmartHome 80471: [DEBUG
+]-06-19 11: 55: 05.378 notifyClient UPDATE_DEVICE_LIST
+SmartHome 80472: [DEBUG
+]-06-19 11: 55: 05.378 doScanDeviceList end
+SmartHome 85455: [DEBUG
+]-06-19 11: 55: 10.363 scanDeviceList in
+SmartHome 85456: [DEBUG
+]-06-19 11: 55: 10.364 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 85456: [DEBUG
+]-06-19 11: 55: 10.364 doScanDeviceList 176
+SmartHome 85456: [DEBUG
+]-06-19 11: 55: 10.371 doScanDeviceList 187
+SmartHome 85456: [DEBUG
+]-06-19 11: 55: 10.371 downloadDeviceList in mIsDownloading=false
+SmartHome 85456: [DEBUG
+]-06-19 11: 55: 10.373 downloadDeviceList issue device_list req
+SmartHome 85480: [DEBUG
+]-06-19 11: 55: 10.381 doScanDeviceList end
+SmartHome 85480: [DEBUG
+]-06-19 11: 55: 10.381 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 85636: [DEBUG
+]-06-19 11: 55: 10.548 downloadDeviceList device_list req onSuccess
+SmartHome 85637: [DEBUG
+]-06-19 11: 55: 10.549 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "3100079ca96dacb9266519c7cc89fe66",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.56",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 85637: [DEBUG
+]-06-19 11: 55: 10.550 processResult jsonObject has no result field
+SmartHome 85637: [DEBUG
+]-06-19 11: 55: 10.552 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 85637: [DEBUG
+]-06-19 11: 55: 10.552 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 85665: [DEBUG
+]-06-19 11: 55: 10.574 scanDeviceList in
+SmartHome 85666: [DEBUG
+]-06-19 11: 55: 10.574 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 85666: [DEBUG
+]-06-19 11: 55: 10.574 doScanDeviceList 176
+SmartHome 85666: [DEBUG
+]-06-19 11: 55: 10.576 doScanDeviceList 187
+SmartHome 85667: [DEBUG
+]-06-19 11: 55: 10.576 downloadDeviceList in mIsDownloading=false
+SmartHome 85667: [DEBUG
+]-06-19 11: 55: 10.577 downloadDeviceList issue device_list req
+SmartHome 85667: [DEBUG
+]-06-19 11: 55: 10.580 doScanDeviceList end
+SmartHome 85667: [DEBUG
+]-06-19 11: 55: 10.580 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 85782: [DEBUG
+]-06-19 11: 55: 10.680 downloadDeviceList device_list req onSuccess
+SmartHome 85783: [DEBUG
+]-06-19 11: 55: 10.681 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "3100079ca96dacb9266519c7cc89fe66",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.56",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 85783: [DEBUG
+]-06-19 11: 55: 10.682 processResult jsonObject has no result field
+SmartHome 85783: [DEBUG
+]-06-19 11: 55: 10.684 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 85783: [DEBUG
+]-06-19 11: 55: 10.684 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 88150: [DEBUG
+]-06-19 11: 55: 13.059 scanDeviceList in
+SmartHome 88151: [DEBUG
+]-06-19 11: 55: 13.060 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 88151: [DEBUG
+]-06-19 11: 55: 13.060 doScanDeviceList 176
+SmartHome 88151: [DEBUG
+]-06-19 11: 55: 13.062 doScanDeviceList 187
+SmartHome 88152: [DEBUG
+]-06-19 11: 55: 13.062 downloadDeviceList in mIsDownloading=false
+SmartHome 88152: [DEBUG
+]-06-19 11: 55: 13.063 downloadDeviceList issue device_list req
+SmartHome 88152: [DEBUG
+]-06-19 11: 55: 13.069 doScanDeviceList end
+SmartHome 88152: [DEBUG
+]-06-19 11: 55: 13.069 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 88322: [DEBUG
+]-06-19 11: 55: 13.222 downloadDeviceList device_list req onSuccess
+SmartHome 88323: [DEBUG
+]-06-19 11: 55: 13.223 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "3100079ca96dacb9266519c7cc89fe66",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.56",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Ein ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "on"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 88323: [DEBUG
+]-06-19 11: 55: 13.223 processResult jsonObject has no result field
+SmartHome 88323: [DEBUG
+]-06-19 11: 55: 13.225 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 88324: [DEBUG
+]-06-19 11: 55: 13.226 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 226454: [DEBUG
+]-06-19 11: 57: 31.351 scanDeviceList in
+SmartHome 226454: [DEBUG
+]-06-19 11: 57: 31.352 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 226455: [DEBUG
+]-06-19 11: 57: 31.352 doScanDeviceList 176
+SmartHome 226455: [DEBUG
+]-06-19 11: 57: 31.356 doScanDeviceList 187
+SmartHome 226455: [DEBUG
+]-06-19 11: 57: 31.356 downloadDeviceList in mIsDownloading=false
+SmartHome 226455: [DEBUG
+]-06-19 11: 57: 31.360 downloadDeviceList issue device_list req
+SmartHome 226455: [DEBUG
+]-06-19 11: 57: 31.360 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 226455: [DEBUG
+]-06-19 11: 57: 31.368 doScanDeviceList end
+SmartHome 226456: [DEBUG
+]-06-19 11: 57: 31.368 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 226456: [DEBUG
+]-06-19 11: 57: 31.369 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 226456: [DEBUG
+]-06-19 11: 57: 31.371 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 226456: [DEBUG
+]-06-19 11: 57: 31.373 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 226457: [DEBUG
+]-06-19 11: 57: 31.375 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 226472: [DEBUG
+]-06-19 11: 57: 31.377 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 226472: [DEBUG
+]-06-19 11: 57: 31.379 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 226473: [DEBUG
+]-06-19 11: 57: 31.381 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 226473: [DEBUG
+]-06-19 11: 57: 31.383 okhttp queuedCallsCount=13,runningCallsCount=5
+SmartHome 226473: [DEBUG
+]-06-19 11: 57: 31.385 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 226473: [DEBUG
+]-06-19 11: 57: 31.389 okhttp queuedCallsCount=15,runningCallsCount=5
+SmartHome 0: [DEBUG
+]-06-19 11: 57: 59.705 scanDeviceList in
+SmartHome 0: [DEBUG
+]-06-19 11: 57: 59.705 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 0: [DEBUG
+]-06-19 11: 57: 59.705 doScanDeviceList 176
+SmartHome 1: [DEBUG
+]-06-19 11: 57: 59.705 doScanDeviceList 187
+SmartHome 1: [DEBUG
+]-06-19 11: 57: 59.708 downloadDeviceList in mIsDownloading=false
+SmartHome 1: [DEBUG
+]-06-19 11: 57: 59.710 downloadDeviceList issue device_list req
+SmartHome 18: [DEBUG
+]-06-19 11: 57: 59.725 doScanDeviceList end
+SmartHome 18: [DEBUG
+]-06-19 11: 57: 59.726 notifyScanState state=START_SUCCESS,mScanningState=0,mDownloaded=false,mWorkingList size=1
+SmartHome 157: [DEBUG
+]-06-19 11: 57: 59.865 notifyScanState state=LOAD_CACHE_SUCCESS,mScanningState=1,mDownloaded=false,mWorkingList size=1
+SmartHome 474: [DEBUG
+]-06-19 11: 58: 00.166 downloadDeviceList device_list req onSuccess
+SmartHome 475: [DEBUG
+]-06-19 11: 58: 00.167 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "3100079ca96dacb9266519c7cc89fe66",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.56",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Aus ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "off"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 475: [DEBUG
+]-06-19 11: 58: 00.170 processResult jsonObject has no result field
+SmartHome 475: [DEBUG
+]-06-19 11: 58: 00.179 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 476: [DEBUG
+]-06-19 11: 58: 00.179 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 1110: [DEBUG
+]-06-19 11: 58: 00.818 scanDeviceList in
+SmartHome 1110: [DEBUG
+]-06-19 11: 58: 00.818 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 1111: [DEBUG
+]-06-19 11: 58: 00.818 doScanDeviceList 176
+SmartHome 1112: [DEBUG
+]-06-19 11: 58: 00.820 doScanDeviceList 187
+SmartHome 1112: [DEBUG
+]-06-19 11: 58: 00.820 downloadDeviceList in mIsDownloading=false
+SmartHome 1112: [DEBUG
+]-06-19 11: 58: 00.821 downloadDeviceList issue device_list req
+SmartHome 1112: [DEBUG
+]-06-19 11: 58: 00.827 doScanDeviceList end
+SmartHome 1113: [DEBUG
+]-06-19 11: 58: 00.827 notifyScanState state=START_SUCCESS,mScanningState=1,mDownloaded=true,mWorkingList size=1
+SmartHome 1390: [DEBUG
+]-06-19 11: 58: 01.097 downloadDeviceList device_list req onSuccess
+SmartHome 1391: [DEBUG
+]-06-19 11: 58: 01.097 processResult in result={
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "list": [
+            {
+                "did": "119647829",
+                "token": "3100079ca96dacb9266519c7cc89fe66",
+                "longitude": "0.00000000",
+                "latitude": "0.00000000",
+                "name": "Mi LED-Tischlampe",
+                "pid": "0",
+                "localip": "192.168.137.56",
+                "mac": "40:31:3C:D3:23:D4",
+                "ssid": "IoTDev",
+                "bssid": "46:85:00:12:35:54",
+                "parent_id": "",
+                "parent_model": "",
+                "show_mode": 1,
+                "model": "yeelink.light.lamp1",
+                "adminFlag": 1,
+                "shareFlag": 0,
+                "permitLevel": 16,
+                "isOnline": true,
+                "desc": "Aus ",
+                "extra": {
+                    "isSetPincode": 0,
+                    "fw_version": "1.3.9_0062",
+                    "needVerifyCode": 0,
+                    "isPasswordEncrypt": 0
+                },
+                "prop": {
+                    "power": "off"
+                },
+                "uid": 1591765279,
+                "pd_id": 150,
+                "method": [
+                    {
+                        "allow_values": "",
+                        "name": "set_power"
+                    }
+                ],
+                "password": "",
+                "p2p_id": "",
+                "rssi": -40,
+                "family_id": 0,
+                "reset_flag": 0
+            }
+        ],
+        "virtualModels": [
+            {
+                "model": "zhimi.airpurifier.m1",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "yunmi.waterpurifier.v2",
+                "state": 0,
+                "url": ""
+            },
+            {
+                "model": "zimi.powerstrip.v2",
+                "state": 0,
+                "url": ""
+            }
+        ]
+    }
+}
+SmartHome 1391: [DEBUG
+]-06-19 11: 58: 01.097 processResult jsonObject has no result field
+SmartHome 1392: [DEBUG
+]-06-19 11: 58: 01.098 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 1392: [DEBUG
+]-06-19 11: 58: 01.098 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1

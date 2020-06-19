@@ -1,0 +1,11 @@
+frame.number,frame.time,eth.src,eth.dst,ip.src,ip.dst,ip.proto,data.data,data.len,udp.srcport,udp.dstport,udp.length,eth.addr.oui_resolved,tcp.srcport,tcp.dstport,tcp.len
+"1","Jun  8, 2020 09:00:46.311660000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","ff:ff:ff:ff:ff:ff",,,,,,,,,"Zyxel Communications Corporation",,,
+"2","Jun  8, 2020 09:00:46.429663000 Mitteleuropäische Sommerzeit","1c:3b:f3:4d:36:04","ff:ff:ff:ff:ff:ff","0.0.0.0","255.255.255.255","17",,,"68","67","316","Tp-Link Technologies Co.,Ltd.",,,
+"3","Jun  8, 2020 09:00:46.432944000 Mitteleuropäische Sommerzeit","1c:3b:f3:4d:36:04","ff:ff:ff:ff:ff:ff","0.0.0.0","255.255.255.255","17",,,"68","67","316","Tp-Link Technologies Co.,Ltd.",,,
+"4","Jun  8, 2020 09:00:46.822793000 Mitteleuropäische Sommerzeit","1c:3b:f3:4d:36:04","ff:ff:ff:ff:ff:ff",,,,,,,,,"Tp-Link Technologies Co.,Ltd.",,,
+"5","Jun  8, 2020 09:00:46.938834000 Mitteleuropäische Sommerzeit","1c:3b:f3:4d:36:04","ff:ff:ff:ff:ff:ff",,,,,,,,,"Tp-Link Technologies Co.,Ltd.",,,
+"6","Jun  8, 2020 09:00:47.438142000 Mitteleuropäische Sommerzeit","1c:3b:f3:4d:36:04","ff:ff:ff:ff:ff:ff",,,,,,,,,"Tp-Link Technologies Co.,Ltd.",,,
+"7","Jun  8, 2020 09:00:47.846898000 Mitteleuropäische Sommerzeit","1c:3b:f3:4d:36:04","ff:ff:ff:ff:ff:ff",,,,,,,,,"Tp-Link Technologies Co.,Ltd.",,,
+"8","Jun  8, 2020 09:00:48.358992000 Mitteleuropäische Sommerzeit","1c:3b:f3:4d:36:04","ff:ff:ff:ff:ff:ff",,,,,,,,,"Tp-Link Technologies Co.,Ltd.",,,
+"9","Jun  8, 2020 09:00:51.328462000 Mitteleuropäische Sommerzeit","1c:3b:f3:4d:36:04","ff:ff:ff:ff:ff:ff",,,,,,,,,"Tp-Link Technologies Co.,Ltd.",,,
+"10","Jun  8, 2020 09:00:52.250997000 Mitteleuropäische Sommerzeit","1c:3b:f3:4d:36:04","ff:ff:ff:ff:ff:ff",,,,,,,,,"Tp-Link Technologies Co.,Ltd.",,,
