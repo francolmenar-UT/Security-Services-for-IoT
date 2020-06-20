@@ -1,0 +1,14 @@
+{
+    "defaultGatewayConfig": {
+        "macAddress" : "46:85:00:12:35:54",
+        "ipAddress": "192.168.137.1",
+        "ipv6Address": "fe80::59d1:6314:bc07:84a5"
+    },
+
+    "deviceConfig":{
+        "device":"40:31:3c:d3:23:d4",
+        "deviceName": "MiLamp"
+    },
+
+    "pcapLocation": "/mnt/raid/Università/IoT/repository/Final-Project/mud/pcap/MiLamp/complete.pcapng"
+}
