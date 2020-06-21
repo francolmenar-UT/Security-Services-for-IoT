@@ -2,7 +2,7 @@
   "ietf-mud:mud" : {
     "mud-version" : 1,
     "mud-url" : "https://plug.com/plug",
-    "last-update" : "2020-06-20T21:07:35.353+02:00",
+    "last-update" : "2020-06-21T17:41:13.762+02:00",
     "cache-validity" : 100,
     "is-supported" : true,
     "systeminfo" : "plug",
