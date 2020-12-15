@@ -1,0 +1,16 @@
+frame.number,frame.time,eth.src,eth.dst,ip.src,ip.dst,ip.proto,data.data,data.len,udp.srcport,udp.dstport,udp.length,eth.addr.oui_resolved,tcp.srcport,tcp.dstport,tcp.len
+"1","Jun 17, 2020 10:27:49.495336000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","ff:ff:ff:ff:ff:ff","0.0.0.0","255.255.255.255","17",,,"68","67","308",,,,
+"2","Jun 17, 2020 10:28:02.520170000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","0"
+"3","Jun 17, 2020 10:28:02.617657000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","0"
+"4","Jun 17, 2020 10:28:02.617788000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","1460"
+"5","Jun 17, 2020 10:28:02.617816000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","1460"
+"6","Jun 17, 2020 10:28:02.617834000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","1460"
+"7","Jun 17, 2020 10:28:02.617957000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","875"
+"8","Jun 17, 2020 10:28:02.837276000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","0"
+"9","Jun 17, 2020 10:28:02.930378000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","0"
+"10","Jun 17, 2020 10:28:02.930461000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","91"
+"11","Jun 17, 2020 10:28:03.072649000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","0"
+"12","Jun 17, 2020 10:28:03.166232000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","0"
+"13","Jun 17, 2020 10:28:03.173579000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","1173"
+"14","Jun 17, 2020 10:28:03.173654000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","3.232.235.243","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64021","69"
+"15","Jun 17, 2020 10:28:06.168507000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.48.207.250","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64016","85"

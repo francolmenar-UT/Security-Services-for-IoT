@@ -1,0 +1,4 @@
+frame.number,frame.time,eth.src,eth.dst,ip.src,ip.dst,ip.proto,data.data,data.len,udp.srcport,udp.dstport,udp.length,eth.addr.oui_resolved,tcp.srcport,tcp.dstport,tcp.len
+"1","Jun 17, 2020 10:26:00.240304000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","172.217.17.130","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","48504","580"
+"2","Jun 17, 2020 10:26:10.526395000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","161.117.71.89","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","49400","31"
+"3","Jun 17, 2020 10:26:10.526475000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","161.117.71.89","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","49400","0"

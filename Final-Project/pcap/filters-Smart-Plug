@@ -1,0 +1,18 @@
+// Device
+(arp.src.proto_ipv4 == 192.168.1.16) || (arp.dst.proto_ipv4 == 192.168.1.16) ||
+
+(ip.src == 192.168.1.16) || (ip.dst == 192.168.1.16) ||
+
+(arp.src.hw_mac == 1c:3b:f3:4d:36:04)  || (arp.dst.hw_mac == 1c:3b:f3:4d:36:04) ||
+
+(eth.src == 1c:3b:f3:4d:36:04) || (eth.addr == 1c:3b:f3:4d:36:04) ||
+
+// My phone
+
+(arp.src.proto_ipv4 == 192.168.1.45) || (arp.dst.proto_ipv4 == 192.168.1.45) ||
+
+(ip.src == 192.168.1.45) || (ip.dst == 192.168.1.45) ||
+
+(arp.src.hw_mac == a8:9c:ed:52:b4:4b)  || (arp.dst.hw_mac == a8:9c:ed:52:b4:4b)  ||
+
+(eth.src == a8:9c:ed:52:b4:4b) || (eth.addr == a8:9c:ed:52:b4:4b)

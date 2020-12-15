@@ -1,0 +1,613 @@
+SmartHome 0: [DEBUG
+]-06-19 07: 54: 25.195 login:application Receiver ACTION_ON_ACCOUNT_READY
+SmartHome 0: [DEBUG
+]-06-19 11: 31: 10.551 click_device_list onPluginChanged recordList size 0 java.lang.Throwable
+	at com.xiaomi.smarthome.frame.core.CoreApi.a(SourceFile: 2319)
+	at com.xiaomi.smarthome.frame.core.ClientApiStub.onCoreReady(SourceFile: 100)
+	at com.xiaomi.smarthome.core.client.IClientApi$Stub.onTransact(SourceFile: 81)
+	at android.os.Binder.execTransact(Binder.java: 731)
+
+SmartHome 0: [DEBUG
+]-06-19 11: 32: 04.847 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 121: [DEBUG
+]-06-19 11: 32: 04.979 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 199170: [DEBUG
+]-06-19 11: 35: 24.026 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 199171: [DEBUG
+]-06-19 11: 35: 24.029 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 199172: [DEBUG
+]-06-19 11: 35: 24.032 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 199174: [DEBUG
+]-06-19 11: 35: 24.035 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 199175: [DEBUG
+]-06-19 11: 35: 24.037 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 199176: [DEBUG
+]-06-19 11: 35: 24.039 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 199184: [DEBUG
+]-06-19 11: 35: 24.043 scanDeviceList in
+SmartHome 199185: [DEBUG
+]-06-19 11: 35: 24.047 doScanDeviceList mScanLocal=true,mIsWorking=false
+SmartHome 199185: [DEBUG
+]-06-19 11: 35: 24.047 doScanDeviceList 176
+SmartHome 199185: [DEBUG
+]-06-19 11: 35: 24.049 doScanDeviceList 187
+SmartHome 199185: [DEBUG
+]-06-19 11: 35: 24.049 downloadDeviceList in mIsDownloading=false
+SmartHome 199193: [DEBUG
+]-06-19 11: 35: 24.051 downloadDeviceList issue device_list req
+SmartHome 199194: [DEBUG
+]-06-19 11: 35: 24.051 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 199194: [DEBUG
+]-06-19 11: 35: 24.054 doScanDeviceList end
+SmartHome 199194: [DEBUG
+]-06-19 11: 35: 24.054 notifyScanState state=START_SUCCESS,mScanningState=0,mDownloaded=true,mWorkingList size=1
+SmartHome 199194: [DEBUG
+]-06-19 11: 35: 24.055 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 199194: [DEBUG
+]-06-19 11: 35: 24.056 okhttp queuedCallsCount=13,runningCallsCount=5
+SmartHome 199195: [DEBUG
+]-06-19 11: 35: 24.057 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 199195: [DEBUG
+]-06-19 11: 35: 24.059 okhttp queuedCallsCount=15,runningCallsCount=5
+SmartHome 199238: [DEBUG
+]-06-19 11: 35: 24.093 okhttp queuedCallsCount=19,runningCallsCount=5
+SmartHome 199492: [DEBUG
+]-06-19 11: 35: 24.349 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 199633: [DEBUG
+]-06-19 11: 35: 24.480 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 199781: [DEBUG
+]-06-19 11: 35: 24.623 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 199781: [DEBUG
+]-06-19 11: 35: 24.630 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 829: [DEBUG
+]-06-19 11: 35: 46.334 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 829: [DEBUG
+]-06-19 11: 35: 46.336 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 829: [DEBUG
+]-06-19 11: 35: 46.339 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 830: [DEBUG
+]-06-19 11: 35: 46.343 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 830: [DEBUG
+]-06-19 11: 35: 46.345 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 830: [DEBUG
+]-06-19 11: 35: 46.348 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 888: [DEBUG
+]-06-19 11: 35: 46.391 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 889: [DEBUG
+]-06-19 11: 35: 46.393 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 889: [DEBUG
+]-06-19 11: 35: 46.395 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 890: [DEBUG
+]-06-19 11: 35: 46.398 okhttp queuedCallsCount=13,runningCallsCount=5
+SmartHome 890: [DEBUG
+]-06-19 11: 35: 46.400 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 891: [DEBUG
+]-06-19 11: 35: 46.404 okhttp queuedCallsCount=15,runningCallsCount=5
+SmartHome 1086: [DEBUG
+]-06-19 11: 35: 46.598 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 1087: [DEBUG
+]-06-19 11: 35: 46.604 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 1102: [DEBUG
+]-06-19 11: 35: 46.607 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 64120: [DEBUG
+]-06-19 11: 36: 49.627 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 64121: [DEBUG
+]-06-19 11: 36: 49.629 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 64121: [DEBUG
+]-06-19 11: 36: 49.632 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 64121: [DEBUG
+]-06-19 11: 36: 49.634 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 64121: [DEBUG
+]-06-19 11: 36: 49.635 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 64121: [DEBUG
+]-06-19 11: 36: 49.637 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 64122: [DEBUG
+]-06-19 11: 36: 49.639 okhttp queuedCallsCount=13,runningCallsCount=5
+SmartHome 64135: [DEBUG
+]-06-19 11: 36: 49.641 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 64135: [DEBUG
+]-06-19 11: 36: 49.643 okhttp queuedCallsCount=15,runningCallsCount=5
+SmartHome 64162: [DEBUG
+]-06-19 11: 36: 49.670 okhttp queuedCallsCount=16,runningCallsCount=5
+SmartHome 64330: [DEBUG
+]-06-19 11: 36: 49.837 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 64330: [DEBUG
+]-06-19 11: 36: 49.842 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 64346: [DEBUG
+]-06-19 11: 36: 49.853 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 64558: [DEBUG
+]-06-19 11: 36: 50.063 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 64607: [DEBUG
+]-06-19 11: 36: 50.114 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 64725: [DEBUG
+]-06-19 11: 36: 50.235 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 64739: [DEBUG
+]-06-19 11: 36: 50.251 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 64740: [DEBUG
+]-06-19 11: 36: 50.253 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 64949: [DEBUG
+]-06-19 11: 36: 50.461 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 64997: [DEBUG
+]-06-19 11: 36: 50.508 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 64997: [DEBUG
+]-06-19 11: 36: 50.511 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 64997: [DEBUG
+]-06-19 11: 36: 50.513 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 65011: [DEBUG
+]-06-19 11: 36: 50.521 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 65011: [DEBUG
+]-06-19 11: 36: 50.526 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 65107: [DEBUG
+]-06-19 11: 36: 50.619 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 65180: [DEBUG
+]-06-19 11: 36: 50.692 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 65939: [DEBUG
+]-06-19 11: 36: 51.436 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 604ms to get response
+SmartHome 68503: [DEBUG
+]-06-19 11: 36: 54.003 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 874ms to get response
+SmartHome 903: [DEBUG
+]-06-19 11: 39: 53.329 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 904: [DEBUG
+]-06-19 11: 39: 53.332 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 904: [DEBUG
+]-06-19 11: 39: 53.335 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 904: [DEBUG
+]-06-19 11: 39: 53.337 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 904: [DEBUG
+]-06-19 11: 39: 53.339 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 905: [DEBUG
+]-06-19 11: 39: 53.342 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 1072: [DEBUG
+]-06-19 11: 39: 53.501 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 1202: [DEBUG
+]-06-19 11: 39: 53.627 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 1202: [DEBUG
+]-06-19 11: 39: 53.631 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 1202: [DEBUG
+]-06-19 11: 39: 53.633 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 4686: [DEBUG
+]-06-19 11: 39: 57.103 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 877ms to get response
+SmartHome 60421: [DEBUG
+]-06-19 11: 40: 52.854 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 83643: [DEBUG
+]-06-19 11: 41: 16.075 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 110696: [DEBUG
+]-06-19 11: 41: 43.129 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 114151: [DEBUG
+]-06-19 11: 41: 46.583 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 114787: [DEBUG
+]-06-19 11: 41: 47.212 https: //de.api.io.mi.com/app/miotspec/prop/get takes 636ms to get response
+SmartHome 160113: [DEBUG
+]-06-19 11: 42: 32.546 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 188509: [DEBUG
+]-06-19 11: 43: 00.940 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 211196: [DEBUG
+]-06-19 11: 43: 23.629 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 216272: [DEBUG
+]-06-19 11: 43: 28.703 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 216273: [DEBUG
+]-06-19 11: 43: 28.704 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 216273: [DEBUG
+]-06-19 11: 43: 28.705 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 216273: [DEBUG
+]-06-19 11: 43: 28.707 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 221954: [DEBUG
+]-06-19 11: 43: 34.385 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 225156: [DEBUG
+]-06-19 11: 43: 37.590 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 921: [DEBUG
+]-06-19 11: 45: 08.972 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 921: [DEBUG
+]-06-19 11: 45: 08.974 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 921: [DEBUG
+]-06-19 11: 45: 08.977 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 921: [DEBUG
+]-06-19 11: 45: 08.979 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 921: [DEBUG
+]-06-19 11: 45: 08.981 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 932: [DEBUG
+]-06-19 11: 45: 08.983 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 932: [DEBUG
+]-06-19 11: 45: 08.986 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 932: [DEBUG
+]-06-19 11: 45: 08.987 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 932: [DEBUG
+]-06-19 11: 45: 08.990 okhttp queuedCallsCount=13,runningCallsCount=5
+SmartHome 952: [DEBUG
+]-06-19 11: 45: 09.006 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 1150: [DEBUG
+]-06-19 11: 45: 09.202 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 1150: [DEBUG
+]-06-19 11: 45: 09.205 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 1151: [DEBUG
+]-06-19 11: 45: 09.207 okhttp queuedCallsCount=13,runningCallsCount=5
+SmartHome 4669: [DEBUG
+]-06-19 11: 45: 12.709 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 857ms to get response
+SmartHome 4669: [DEBUG
+]-06-19 11: 45: 12.710 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 855ms to get response
+SmartHome 4669: [DEBUG
+]-06-19 11: 45: 12.715 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 849ms to get response
+SmartHome 4670: [DEBUG
+]-06-19 11: 45: 12.715 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 857ms to get response
+SmartHome 31023: [DEBUG
+]-06-19 11: 45: 39.076 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 105: [DEBUG
+]-06-19 11: 47: 26.758 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 758: [DEBUG
+]-06-19 11: 47: 27.411 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 867: [DEBUG
+]-06-19 11: 47: 27.522 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 867: [DEBUG
+]-06-19 11: 47: 27.526 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 880: [DEBUG
+]-06-19 11: 47: 27.532 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 880: [DEBUG
+]-06-19 11: 47: 27.535 okhttp queuedCallsCount=13,runningCallsCount=5
+SmartHome 880: [DEBUG
+]-06-19 11: 47: 27.537 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 881: [DEBUG
+]-06-19 11: 47: 27.540 okhttp queuedCallsCount=15,runningCallsCount=5
+SmartHome 891: [DEBUG
+]-06-19 11: 47: 27.543 okhttp queuedCallsCount=16,runningCallsCount=5
+SmartHome 892: [DEBUG
+]-06-19 11: 47: 27.549 okhttp queuedCallsCount=17,runningCallsCount=5
+SmartHome 1080: [DEBUG
+]-06-19 11: 47: 27.725 okhttp queuedCallsCount=18,runningCallsCount=5
+SmartHome 1669: [DEBUG
+]-06-19 11: 47: 28.320 okhttp queuedCallsCount=19,runningCallsCount=5
+SmartHome 2045: [DEBUG
+]-06-19 11: 47: 28.701 okhttp queuedCallsCount=18,runningCallsCount=5
+SmartHome 2101: [DEBUG
+]-06-19 11: 47: 28.754 okhttp queuedCallsCount=19,runningCallsCount=5
+SmartHome 2346: [DEBUG
+]-06-19 11: 47: 29.003 okhttp queuedCallsCount=15,runningCallsCount=5
+SmartHome 2665: [DEBUG
+]-06-19 11: 47: 29.319 okhttp queuedCallsCount=15,runningCallsCount=5
+SmartHome 2835: [DEBUG
+]-06-19 11: 47: 29.491 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 4927: [DEBUG
+]-06-19 11: 47: 31.575 https: //de.api.io.mi.com/app/plugin/get_config_info_new takes 1540ms to get response
+SmartHome 4928: [DEBUG
+]-06-19 11: 47: 31.575 https: //de.api.io.mi.com/app/v2/miotspec/devicelist takes 1518ms to get response
+SmartHome 4928: [DEBUG
+]-06-19 11: 47: 31.575 https: //de.api.io.mi.com/app/home/device_list takes 1536ms to get response
+SmartHome 4928: [DEBUG
+]-06-19 11: 47: 31.578 downloadDeviceList device_list req onSuccess
+SmartHome 4928: [DEBUG
+]-06-19 11: 47: 31.579 processResult in result={
+	"code": 0,
+	"message": "ok",
+	"result": {
+		"list": [],
+		"virtualModels": [
+			{
+				"model": "zhimi.airpurifier.m1",
+				"state": 0,
+				"url": ""
+			},
+			{
+				"model": "yunmi.waterpurifier.v2",
+				"state": 0,
+				"url": ""
+			},
+			{
+				"model": "zimi.powerstrip.v2",
+				"state": 0,
+				"url": ""
+			}
+		]
+	}
+}
+SmartHome 4928: [DEBUG
+]-06-19 11: 47: 31.579 processResult jsonObject has no result field
+SmartHome 4928: [DEBUG
+]-06-19 11: 47: 31.580 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 4928: [DEBUG
+]-06-19 11: 47: 31.580 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=0
+SmartHome 4929: [DEBUG
+]-06-19 11: 47: 31.580 notifyClient UPDATE_DEVICE_LIST
+SmartHome 4929: [DEBUG
+]-06-19 11: 47: 31.582 https: //de.api.io.mi.com/app/home/getips takes 1531ms to get response
+SmartHome 4929: [DEBUG
+]-06-19 11: 47: 31.583 https: //de.api.io.mi.com/app/user/get_user_config takes 1071ms to get response
+SmartHome 71175: [DEBUG
+]-06-19 11: 48: 37.806 https: //de.api.io.mi.com/app/home/device_new takes 721ms to get response
+SmartHome 73222: [DEBUG
+]-06-19 11: 48: 39.863 https: //de.api.io.mi.com/app/device/batchdevicedatas takes 842ms to get response
+SmartHome 76364: [DEBUG
+]-06-19 11: 48: 43.006 https: //de.api.io.mi.com/app/home/device_new takes 910ms to get response
+SmartHome 140606: [DEBUG
+]-06-19 11: 49: 47.247 https: //de.api.io.mi.com/app/home/device_new takes 690ms to get response
+SmartHome 145752: [DEBUG
+]-06-19 11: 49: 52.402 https: //de.api.io.mi.com/app/home/device_new takes 819ms to get response
+SmartHome 98011: [DEBUG
+]-06-19 11: 55: 22.918 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 702ms to get response
+SmartHome 98943: [DEBUG
+]-06-19 11: 55: 23.840 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 631ms to get response
+SmartHome 100061: [DEBUG
+]-06-19 11: 55: 24.965 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 935ms to get response
+SmartHome 102081: [DEBUG
+]-06-19 11: 55: 26.979 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 657ms to get response
+SmartHome 120365: [DEBUG
+]-06-19 11: 55: 45.262 https: //de.api.io.mi.com/app/plugin/update_plugin takes 655ms to get response
+SmartHome 226485: [DEBUG
+]-06-19 11: 57: 31.394 okhttp queuedCallsCount=16,runningCallsCount=5
+SmartHome 226485: [DEBUG
+]-06-19 11: 57: 31.396 okhttp queuedCallsCount=17,runningCallsCount=5
+SmartHome 226485: [DEBUG
+]-06-19 11: 57: 31.398 okhttp queuedCallsCount=18,runningCallsCount=5
+SmartHome 226494: [DEBUG
+]-06-19 11: 57: 31.405 okhttp queuedCallsCount=19,runningCallsCount=5
+SmartHome 226494: [DEBUG
+]-06-19 11: 57: 31.409 okhttp queuedCallsCount=20,runningCallsCount=5
+SmartHome 226926: [DEBUG
+]-06-19 11: 57: 31.828 okhttp queuedCallsCount=21,runningCallsCount=5
+SmartHome 227359: [DEBUG
+]-06-19 11: 57: 32.267 okhttp queuedCallsCount=22,runningCallsCount=5
+SmartHome 228112: [DEBUG
+]-06-19 11: 57: 33.023 okhttp queuedCallsCount=23,runningCallsCount=5
+SmartHome 228138: [DEBUG
+]-06-19 11: 57: 33.047 https: //de.api.io.mi.com/app/v2/group/device_def takes 1159ms to get response
+SmartHome 228138: [DEBUG
+]-06-19 11: 57: 33.047 https: //de.api.io.mi.com/app/device/batchdevicedatas takes 1174ms to get response
+SmartHome 228138: [DEBUG
+]-06-19 11: 57: 33.048 https: //de.api.io.mi.com/app/homeroom/gethome takes 1150ms to get response
+SmartHome 228198: [DEBUG
+]-06-19 11: 57: 33.107 okhttp queuedCallsCount=21,runningCallsCount=5
+SmartHome 228359: [DEBUG
+]-06-19 11: 57: 33.266 okhttp queuedCallsCount=22,runningCallsCount=5
+SmartHome 228593: [DEBUG
+]-06-19 11: 57: 33.496 https: //de.api.io.mi.com/app/user/get_user_config takes 1596ms to get response
+SmartHome 228593: [DEBUG
+]-06-19 11: 57: 33.507 okhttp queuedCallsCount=22,runningCallsCount=5
+SmartHome 229051: [DEBUG
+]-06-19 11: 57: 33.944 https: //de.api.io.mi.com/app/version/check_gray takes 840ms to get response
+SmartHome 229052: [DEBUG
+]-06-19 11: 57: 33.945 https: //de.api.io.mi.com/app/v2/device/multi_check_device_version takes 883ms to get response
+SmartHome 229052: [DEBUG
+]-06-19 11: 57: 33.947 https: //de.api.io.mi.com/app/plugin/update_plugin takes 841ms to get response
+SmartHome 229376: [DEBUG
+]-06-19 11: 57: 34.286 okhttp queuedCallsCount=20,runningCallsCount=5
+SmartHome 229376: [DEBUG
+]-06-19 11: 57: 34.289 okhttp queuedCallsCount=21,runningCallsCount=5
+SmartHome 229553: [DEBUG
+]-06-19 11: 57: 34.466 okhttp queuedCallsCount=22,runningCallsCount=5
+SmartHome 229627: [DEBUG
+]-06-19 11: 57: 34.539 https: //de.api.io.mi.com/app/message/typecount takes 1432ms to get response
+SmartHome 229779: [DEBUG
+]-06-19 11: 57: 34.690 okhttp queuedCallsCount=22,runningCallsCount=5
+SmartHome 229888: [DEBUG
+]-06-19 11: 57: 34.800 okhttp queuedCallsCount=23,runningCallsCount=5
+SmartHome 229888: [DEBUG
+]-06-19 11: 57: 34.802 okhttp queuedCallsCount=24,runningCallsCount=5
+SmartHome 229888: [DEBUG
+]-06-19 11: 57: 34.805 okhttp queuedCallsCount=25,runningCallsCount=5
+SmartHome 229900: [DEBUG
+]-06-19 11: 57: 34.813 okhttp queuedCallsCount=26,runningCallsCount=5
+SmartHome 229966: [DEBUG
+]-06-19 11: 57: 34.879 okhttp queuedCallsCount=27,runningCallsCount=5
+SmartHome 229967: [DEBUG
+]-06-19 11: 57: 34.882 okhttp queuedCallsCount=28,runningCallsCount=5
+SmartHome 229979: [DEBUG
+]-06-19 11: 57: 34.889 okhttp queuedCallsCount=29,runningCallsCount=5
+SmartHome 229979: [DEBUG
+]-06-19 11: 57: 34.891 okhttp queuedCallsCount=30,runningCallsCount=5
+SmartHome 230143: [DEBUG
+]-06-19 11: 57: 35.054 okhttp queuedCallsCount=31,runningCallsCount=5
+SmartHome 230199: [DEBUG
+]-06-19 11: 57: 35.111 okhttp queuedCallsCount=32,runningCallsCount=5
+SmartHome 230199: [DEBUG
+]-06-19 11: 57: 35.114 okhttp queuedCallsCount=33,runningCallsCount=5
+SmartHome 230199: [DEBUG
+]-06-19 11: 57: 35.116 okhttp queuedCallsCount=34,runningCallsCount=5
+SmartHome 230206: [DEBUG
+]-06-19 11: 57: 35.119 okhttp queuedCallsCount=35,runningCallsCount=5
+SmartHome 230265: [DEBUG
+]-06-19 11: 57: 35.176 okhttp queuedCallsCount=36,runningCallsCount=5
+SmartHome 230265: [DEBUG
+]-06-19 11: 57: 35.180 okhttp queuedCallsCount=37,runningCallsCount=5
+SmartHome 230405: [DEBUG
+]-06-19 11: 57: 35.318 okhttp queuedCallsCount=38,runningCallsCount=5
+SmartHome 230579: [DEBUG
+]-06-19 11: 57: 35.484 https: //de.api.io.mi.com/app/user/get_user_config takes 1530ms to get response
+SmartHome 230579: [DEBUG
+]-06-19 11: 57: 35.484 https: //de.api.io.mi.com/app/v2/home/get_device_description takes 1525ms to get response
+SmartHome 230579: [DEBUG
+]-06-19 11: 57: 35.484 https: //de.api.io.mi.com/app/home/device_list takes 1529ms to get response
+SmartHome 230579: [DEBUG
+]-06-19 11: 57: 35.485 https: //de.api.io.mi.com/app/message/typecount takes 1982ms to get response
+SmartHome 230579: [DEBUG
+]-06-19 11: 57: 35.486 downloadDeviceList device_list req onSuccess
+SmartHome 230579: [DEBUG
+]-06-19 11: 57: 35.487 processResult in result={
+	"code": 0,
+	"message": "ok",
+	"result": {
+		"list": [
+			{
+				"did": "119647829",
+				"token": "3100079ca96dacb9266519c7cc89fe66",
+				"longitude": "0.00000000",
+				"latitude": "0.00000000",
+				"name": "Mi LED-Tischlampe",
+				"pid": "0",
+				"localip": "192.168.137.56",
+				"mac": "40:31:3C:D3:23:D4",
+				"ssid": "IoTDev",
+				"bssid": "46:85:00:12:35:54",
+				"parent_id": "",
+				"parent_model": "",
+				"show_mode": 1,
+				"model": "yeelink.light.lamp1",
+				"adminFlag": 1,
+				"shareFlag": 0,
+				"permitLevel": 16,
+				"isOnline": true,
+				"desc": "Ein ",
+				"extra": {
+					"isSetPincode": 0,
+					"fw_version": "1.3.9_0062",
+					"needVerifyCode": 0,
+					"isPasswordEncrypt": 0
+				},
+				"prop": {
+					"power": "on"
+				},
+				"uid": 1591765279,
+				"pd_id": 150,
+				"method": [
+					{
+						"allow_values": "",
+						"name": "set_power"
+					}
+				],
+				"password": "",
+				"p2p_id": "",
+				"rssi": -40,
+				"family_id": 0,
+				"reset_flag": 0
+			}
+		],
+		"virtualModels": [
+			{
+				"model": "zhimi.airpurifier.m1",
+				"state": 0,
+				"url": ""
+			},
+			{
+				"model": "yunmi.waterpurifier.v2",
+				"state": 0,
+				"url": ""
+			},
+			{
+				"model": "zimi.powerstrip.v2",
+				"state": 0,
+				"url": ""
+			}
+		]
+	}
+}
+SmartHome 230580: [DEBUG
+]-06-19 11: 57: 35.487 processResult jsonObject has no result field
+SmartHome 230580: [DEBUG
+]-06-19 11: 57: 35.488 downloadDeviceList start notifyScanState SYNC_SERVER_SUCCESS
+SmartHome 230580: [DEBUG
+]-06-19 11: 57: 35.488 notifyScanState state=SYNC_SERVER_SUCCESS,mScanningState=3,mDownloaded=true,mWorkingList size=1
+SmartHome 230580: [DEBUG
+]-06-19 11: 57: 35.490 okhttp queuedCallsCount=36,runningCallsCount=5
+SmartHome 230580: [DEBUG
+]-06-19 11: 57: 35.496 okhttp queuedCallsCount=36,runningCallsCount=5
+SmartHome 230706: [DEBUG
+]-06-19 11: 57: 35.618 okhttp queuedCallsCount=37,runningCallsCount=5
+SmartHome 230916: [DEBUG
+]-06-19 11: 57: 35.816 okhttp queuedCallsCount=38,runningCallsCount=5
+SmartHome 231149: [DEBUG
+]-06-19 11: 57: 36.046 https: //de.api.io.mi.com/app/device/batchdevicedatas takes 1503ms to get response
+SmartHome 231185: [DEBUG
+]-06-19 11: 57: 36.096 okhttp queuedCallsCount=34,runningCallsCount=5
+SmartHome 231736: [DEBUG
+]-06-19 11: 57: 36.649 okhttp queuedCallsCount=29,runningCallsCount=5
+SmartHome 232712: [DEBUG
+]-06-19 11: 57: 37.609 https: //de.api.io.mi.com/app/plugin/get_config_info_new takes 990ms to get response
+SmartHome 232766: [DEBUG
+]-06-19 11: 57: 37.670 okhttp queuedCallsCount=22,runningCallsCount=5
+SmartHome 236055: [DEBUG
+]-06-19 11: 57: 40.947 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 3274ms to get response
+SmartHome 236056: [DEBUG
+]-06-19 11: 57: 40.948 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 2807ms to get response
+SmartHome 236056: [DEBUG
+]-06-19 11: 57: 40.951 https: //de.api.io.mi.com/app/mipush/eventunsub takes 2746ms to get response
+SmartHome 236056: [DEBUG
+]-06-19 11: 57: 40.967 okhttp queuedCallsCount=17,runningCallsCount=5
+SmartHome 236348: [DEBUG
+]-06-19 11: 57: 41.249 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 3045ms to get response
+SmartHome 236348: [DEBUG
+]-06-19 11: 57: 41.250 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 3059ms to get response
+SmartHome 236794: [DEBUG
+]-06-19 11: 57: 41.700 https: //de.api.io.mi.com/app/home/checkversion takes 730ms to get response
+SmartHome 236795: [DEBUG
+]-06-19 11: 57: 41.701 https: //de.api.io.mi.com/app/v2/home/range_get_open_config takes 729ms to get response
+SmartHome 237060: [DEBUG
+]-06-19 11: 57: 41.967 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 698ms to get response
+SmartHome 237128: [DEBUG
+]-06-19 11: 57: 42.036 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 238514: [DEBUG
+]-06-19 11: 57: 43.422 https: //de.api.io.mi.com/app/mipush/eventsub takes 1324ms to get response
+SmartHome 238673: [DEBUG
+]-06-19 11: 57: 43.584 https: //de.api.io.mi.com/app/mipush/eventsubbatch takes 1424ms to get response
+SmartHome 238673: [DEBUG
+]-06-19 11: 57: 43.585 https: //de.api.io.mi.com/app/mipush/eventsub takes 1448ms to get response
+SmartHome 1145: [DEBUG
+]-06-19 11: 58: 00.851 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 1145: [DEBUG
+]-06-19 11: 58: 00.854 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 1145: [DEBUG
+]-06-19 11: 58: 00.857 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 1145: [DEBUG
+]-06-19 11: 58: 00.859 okhttp queuedCallsCount=8,runningCallsCount=5
+SmartHome 1157: [DEBUG
+]-06-19 11: 58: 00.861 okhttp queuedCallsCount=9,runningCallsCount=5
+SmartHome 1157: [DEBUG
+]-06-19 11: 58: 00.865 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 1157: [DEBUG
+]-06-19 11: 58: 00.868 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 1158: [DEBUG
+]-06-19 11: 58: 00.871 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 1169: [DEBUG
+]-06-19 11: 58: 00.874 okhttp queuedCallsCount=13,runningCallsCount=5
+SmartHome 1183: [DEBUG
+]-06-19 11: 58: 00.888 okhttp queuedCallsCount=13,runningCallsCount=5
+SmartHome 1267: [DEBUG
+]-06-19 11: 58: 00.973 okhttp queuedCallsCount=14,runningCallsCount=5
+SmartHome 1408: [DEBUG
+]-06-19 11: 58: 01.116 okhttp queuedCallsCount=10,runningCallsCount=5
+SmartHome 1408: [DEBUG
+]-06-19 11: 58: 01.118 okhttp queuedCallsCount=11,runningCallsCount=5
+SmartHome 1467: [DEBUG
+]-06-19 11: 58: 01.171 okhttp queuedCallsCount=12,runningCallsCount=5
+SmartHome 1952: [DEBUG
+]-06-19 11: 58: 01.657 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 2895: [DEBUG
+]-06-19 11: 58: 02.591 https: //de.api.io.mi.com/app/message/typecount takes 679ms to get response
+SmartHome 3914: [DEBUG
+]-06-19 11: 58: 03.600 https: //de.api.io.mi.com/app/user/get_user_config takes 1687ms to get response
+SmartHome 3914: [DEBUG
+]-06-19 11: 58: 03.601 https: //de.api.io.mi.com/app/v2/home/getunsetdids takes 1685ms to get response
+SmartHome 3915: [DEBUG
+]-06-19 11: 58: 03.602 https: //de.api.io.mi.com/app/mipush/eventsubbatch takes 1685ms to get response
+SmartHome 3915: [DEBUG
+]-06-19 11: 58: 03.603 https: //de.api.io.mi.com/app/mipush/eventsubbatch takes 1684ms to get response
+SmartHome 4093: [DEBUG
+]-06-19 11: 58: 03.606 https: //de.api.io.mi.com/app/device/batchdevicedatas takes 1001ms to get response
+SmartHome 4687: [DEBUG
+]-06-19 11: 58: 04.397 okhttp queuedCallsCount=5,runningCallsCount=5
+SmartHome 4762: [DEBUG
+]-06-19 11: 58: 04.471 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 4762: [DEBUG
+]-06-19 11: 58: 04.475 okhttp queuedCallsCount=7,runningCallsCount=5
+SmartHome 4860: [DEBUG
+]-06-19 11: 58: 04.567 https: //de.api.io.mi.com/app/plugin/get_config_info_new takes 959ms to get response
+SmartHome 4860: [DEBUG
+]-06-19 11: 58: 04.567 https: //de.api.io.mi.com/app/v2/user/switch_control takes 959ms to get response
+SmartHome 5181: [DEBUG
+]-06-19 11: 58: 04.891 okhttp queuedCallsCount=6,runningCallsCount=5
+SmartHome 5417: [DEBUG
+]-06-19 11: 58: 05.110 https: //de.api.io.mi.com/app/home/checkversion takes 1236ms to get response
+SmartHome 5418: [DEBUG
+]-06-19 11: 58: 05.112 https: //de.api.io.mi.com/app/mipush/eventsubbatch takes 1492ms to get response
+SmartHome 5418: [DEBUG
+]-06-19 11: 58: 05.127 https: //de.api.io.mi.com/app/plugin/update_plugin takes 1489ms to get response
+SmartHome 5979: [DEBUG
+]-06-19 11: 58: 05.673 https: //de.api.io.mi.com/app/v2/home/range_get_open_config takes 1099ms to get response
+SmartHome 5979: [DEBUG
+]-06-19 11: 58: 05.674 https: //de.api.io.mi.com/app/v2/device/range_get_extra_data takes 1101ms to get response
+SmartHome 6487: [DEBUG
+]-06-19 11: 58: 06.189 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 1055ms to get response
+SmartHome 6488: [DEBUG
+]-06-19 11: 58: 06.190 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 1066ms to get response
+SmartHome 6488: [DEBUG
+]-06-19 11: 58: 06.191 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 1063ms to get response
+SmartHome 7042: [DEBUG
+]-06-19 11: 58: 06.728 https: //de.api.io.mi.com/app/home/rpc/119647829 takes 1046ms to get response
+SmartHome 64740: [DEBUG
+]-06-19 11: 59: 04.450 okhttp queuedCallsCount=5,runningCallsCount=5

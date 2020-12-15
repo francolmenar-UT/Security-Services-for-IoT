@@ -1,0 +1,46 @@
+frame.number,frame.time,eth.src,eth.dst,ip.src,ip.dst,ip.proto,data.data,data.len,udp.srcport,udp.dstport,udp.length,eth.addr.oui_resolved,tcp.srcport,tcp.dstport,tcp.len
+"1","Jun 17, 2020 10:34:06.433884000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","ff:ff:ff:ff:ff:ff","0.0.0.0","255.255.255.255","17",,,"68","67","308",,,,
+"2","Jun 17, 2020 10:34:10.833632000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","69.171.250.34","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","37736","24"
+"3","Jun 17, 2020 10:34:12.564650000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64023","0"
+"4","Jun 17, 2020 10:34:12.564728000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64023","0"
+"5","Jun 17, 2020 10:34:15.035604000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","ff:ff:ff:ff:ff:ff","0.0.0.0","255.255.255.255","17",,,"68","67","308",,,,
+"6","Jun 17, 2020 10:34:34.506062000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","172.217.17.138","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","44024","0"
+"7","Jun 17, 2020 10:34:34.797637000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","172.217.17.138","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","44028","0"
+"8","Jun 17, 2020 10:34:37.113597000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","18.156.97.24","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","5222","45066","12"
+"9","Jun 17, 2020 10:34:46.465457000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.48.207.250","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64016","85"
+"10","Jun 17, 2020 10:34:46.751013000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.48.207.250","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64016","85"
+"11","Jun 17, 2020 10:35:02.721645000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","01:00:5e:00:00:fb","192.168.2.4","224.0.0.251","17",,,"5353","5353","182","Tp-Link Technologies Co.,Ltd.",,,
+"12","Jun 17, 2020 10:35:02.721713000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","33:33:00:00:00:fb",,,,,,"5353","5353","182","Tp-Link Technologies Co.,Ltd.",,,
+"13","Jun 17, 2020 10:35:02.958290000 Mitteleuropäische Sommerzeit","66:7c:70:df:42:64","01:00:5e:00:00:fb","192.168.2.1","224.0.0.251","17",,,"5353","5353","182",,,,
+"14","Jun 17, 2020 10:35:02.960734000 Mitteleuropäische Sommerzeit","66:7c:70:df:42:64","33:33:00:00:00:fb",,,,,,"5353","5353","182",,,,
+"15","Jun 17, 2020 10:35:02.962983000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","01:00:5e:00:00:fb","169.254.89.5","224.0.0.251","17",,,"5353","5353","182",,,,
+"16","Jun 17, 2020 10:35:03.723351000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","01:00:5e:00:00:fb","192.168.2.4","224.0.0.251","17",,,"5353","5353","182","Tp-Link Technologies Co.,Ltd.",,,
+"17","Jun 17, 2020 10:35:03.723496000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","33:33:00:00:00:fb",,,,,,"5353","5353","182","Tp-Link Technologies Co.,Ltd.",,,
+"18","Jun 17, 2020 10:35:03.879901000 Mitteleuropäische Sommerzeit","66:7c:70:df:42:64","01:00:5e:00:00:fb","192.168.2.1","224.0.0.251","17",,,"5353","5353","182",,,,
+"19","Jun 17, 2020 10:35:03.882307000 Mitteleuropäische Sommerzeit","66:7c:70:df:42:64","33:33:00:00:00:fb",,,,,,"5353","5353","182",,,,
+"20","Jun 17, 2020 10:35:03.884564000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","01:00:5e:00:00:fb","169.254.89.5","224.0.0.251","17",,,"5353","5353","182",,,,
+"21","Jun 17, 2020 10:35:05.725632000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","01:00:5e:00:00:fb","192.168.2.4","224.0.0.251","17",,,"5353","5353","182","Tp-Link Technologies Co.,Ltd.",,,
+"22","Jun 17, 2020 10:35:05.725777000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","33:33:00:00:00:fb",,,,,,"5353","5353","182","Tp-Link Technologies Co.,Ltd.",,,
+"23","Jun 17, 2020 10:35:06.030136000 Mitteleuropäische Sommerzeit","66:7c:70:df:42:64","01:00:5e:00:00:fb","192.168.2.1","224.0.0.251","17",,,"5353","5353","182",,,,
+"24","Jun 17, 2020 10:35:06.032537000 Mitteleuropäische Sommerzeit","66:7c:70:df:42:64","33:33:00:00:00:fb",,,,,,"5353","5353","182",,,,
+"25","Jun 17, 2020 10:35:06.034758000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","01:00:5e:00:00:fb","169.254.89.5","224.0.0.251","17",,,"5353","5353","182",,,,
+"26","Jun 17, 2020 10:35:08.843237000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","0"
+"27","Jun 17, 2020 10:35:08.937123000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","0"
+"28","Jun 17, 2020 10:35:08.937198000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","1460"
+"29","Jun 17, 2020 10:35:08.937219000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","1460"
+"30","Jun 17, 2020 10:35:08.937237000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","1460"
+"31","Jun 17, 2020 10:35:08.937303000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","875"
+"32","Jun 17, 2020 10:35:08.997404000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","0"
+"33","Jun 17, 2020 10:35:09.141893000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","0"
+"34","Jun 17, 2020 10:35:09.235665000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","0"
+"35","Jun 17, 2020 10:35:09.235753000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","91"
+"36","Jun 17, 2020 10:35:09.378975000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","0"
+"37","Jun 17, 2020 10:35:09.471062000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","0"
+"38","Jun 17, 2020 10:35:09.482911000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","1173"
+"39","Jun 17, 2020 10:35:09.482985000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","69"
+"40","Jun 17, 2020 10:35:09.503579000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.7.214.228","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64024","0"
+"41","Jun 17, 2020 10:35:09.725480000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","01:00:5e:00:00:fb","192.168.2.4","224.0.0.251","17",,,"5353","5353","182","Tp-Link Technologies Co.,Ltd.",,,
+"42","Jun 17, 2020 10:35:09.725571000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","33:33:00:00:00:fb",,,,,,"5353","5353","182","Tp-Link Technologies Co.,Ltd.",,,
+"43","Jun 17, 2020 10:35:10.023823000 Mitteleuropäische Sommerzeit","66:7c:70:df:42:64","01:00:5e:00:00:fb","192.168.2.1","224.0.0.251","17",,,"5353","5353","182",,,,
+"44","Jun 17, 2020 10:35:10.026228000 Mitteleuropäische Sommerzeit","66:7c:70:df:42:64","33:33:00:00:00:fb",,,,,,"5353","5353","182",,,,
+"45","Jun 17, 2020 10:35:10.028622000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","01:00:5e:00:00:fb","169.254.89.5","224.0.0.251","17",,,"5353","5353","182",,,,

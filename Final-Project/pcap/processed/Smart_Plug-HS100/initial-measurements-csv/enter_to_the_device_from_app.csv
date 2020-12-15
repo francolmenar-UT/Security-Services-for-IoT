@@ -1,0 +1,26 @@
+frame.number,frame.time,eth.src,eth.dst,ip.src,ip.dst,ip.proto,data.data,data.len,udp.srcport,udp.dstport,udp.length,eth.addr.oui_resolved,tcp.srcport,tcp.dstport,tcp.len
+"1","Jun  8, 2020 09:17:09.048186000 Mitteleuropäische Sommerzeit","a8:9c:ed:52:b4:4b","ff:ff:ff:ff:ff:ff","192.168.1.45","255.255.255.255","17","d0f281f88bff9af7d5ef94b6d1b4c09fec95e68fe187e8caf08bf68bf6","29","47046","9999","37","Xiaomi Communications Co Ltd",,,
+"2","Jun  8, 2020 09:17:09.809656000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","192.168.1.1","17",,,"53257","53","51","Zyxel Communications Corporation",,,
+"3","Jun  8, 2020 09:17:09.809850000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","192.168.1.1","17",,,"53257","53","54","Zyxel Communications Corporation",,,
+"4","Jun  8, 2020 09:17:09.814409000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","192.168.1.1","192.168.1.182","17",,,"53","53257","85","Tp-Link Technologies Co.,Ltd.",,,
+"5","Jun  8, 2020 09:17:09.814419000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","192.168.1.1","192.168.1.182","17",,,"53","53257","54","Tp-Link Technologies Co.,Ltd.",,,
+"6","Jun  8, 2020 09:17:10.174734000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:71","01:80:c2:00:00:0e",,,,,,,,,"Zyxel Communications Corporation",,,
+"7","Jun  8, 2020 09:17:10.179651000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","01:80:c2:00:00:13",,,,,,,,,"Zyxel Communications Corporation",,,
+"8","Jun  8, 2020 09:17:10.785950000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","ff:ff:ff:ff:ff:ff","192.168.1.182","192.168.1.255","17","53706f74556470302a1d571c7b9c6851000100044895c20370a97da6071a9412c11f2f74c560cc396b813989","44","57621","57621","52","Tp-Link Technologies Co.,Ltd.",,,
+"9","Jun  8, 2020 09:17:10.786123000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","ff:ff:ff:ff:ff:ff","192.168.1.182","192.168.1.255","17","53706f74556470302a1d571c7b9c6851000100044895c20370a97da6071a9412c11f2f74c560cc396b813989","44","57621","57621","52","Tp-Link Technologies Co.,Ltd.",,,
+"10","Jun  8, 2020 09:17:10.809270000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","192.168.1.1","17",,,"53257","53","52","Zyxel Communications Corporation",,,
+"11","Jun  8, 2020 09:17:10.809461000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","192.168.1.1","17",,,"53257","53","50","Zyxel Communications Corporation",,,
+"12","Jun  8, 2020 09:17:10.813928000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","192.168.1.1","192.168.1.182","17",,,"53","53257","52","Tp-Link Technologies Co.,Ltd.",,,
+"13","Jun  8, 2020 09:17:10.813936000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","192.168.1.1","192.168.1.182","17",,,"53","53257","68","Tp-Link Technologies Co.,Ltd.",,,
+"14","Jun  8, 2020 09:17:11.630015000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","81.161.59.127","192.168.1.182","6",,,,,,"Tp-Link Technologies Co.,Ltd.","80","50905","279"
+"15","Jun  8, 2020 09:17:11.630095000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","81.161.59.127","6",,,,,,"Zyxel Communications Corporation","50905","80","0"
+"16","Jun  8, 2020 09:17:11.633537000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","81.161.59.127","6",,,,,,"Zyxel Communications Corporation","50905","80","95"
+"17","Jun  8, 2020 09:17:11.681157000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","81.161.59.127","192.168.1.182","6",,,,,,"Tp-Link Technologies Co.,Ltd.","80","50905","0"
+"18","Jun  8, 2020 09:17:11.808198000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","192.168.1.1","17",,,"53257","53","52","Zyxel Communications Corporation",,,
+"19","Jun  8, 2020 09:17:11.808393000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","192.168.1.1","17",,,"53257","53","52","Zyxel Communications Corporation",,,
+"20","Jun  8, 2020 09:17:11.816829000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","192.168.1.1","192.168.1.182","17",,,"53","53257","52","Tp-Link Technologies Co.,Ltd.",,,
+"21","Jun  8, 2020 09:17:11.816841000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","192.168.1.1","192.168.1.182","17",,,"53","53257","106","Tp-Link Technologies Co.,Ltd.",,,
+"22","Jun  8, 2020 09:17:12.208075000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","81.161.59.87","192.168.1.182","6",,,,,,"Tp-Link Technologies Co.,Ltd.","80","50909","0"
+"23","Jun  8, 2020 09:17:12.208162000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","81.161.59.87","6",,,,,,"Zyxel Communications Corporation","50909","80","0"
+"24","Jun  8, 2020 09:17:12.809421000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","98:0d:67:33:29:70","192.168.1.182","192.168.1.1","17",,,"53257","53","51","Zyxel Communications Corporation",,,
+"25","Jun  8, 2020 09:17:12.813783000 Mitteleuropäische Sommerzeit","98:0d:67:33:29:70","d0:37:45:53:9a:9d","192.168.1.1","192.168.1.182","17",,,"53","53257","105","Tp-Link Technologies Co.,Ltd.",,,

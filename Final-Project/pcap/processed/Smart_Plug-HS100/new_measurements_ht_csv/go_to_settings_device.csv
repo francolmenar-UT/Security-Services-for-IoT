@@ -1,0 +1,14 @@
+frame.number,frame.time,eth.src,eth.dst,ip.src,ip.dst,ip.proto,data.data,data.len,udp.srcport,udp.dstport,udp.length,eth.addr.oui_resolved,tcp.srcport,tcp.dstport,tcp.len
+"1","Jun 17, 2020 10:28:58.308862000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","ff:ff:ff:ff:ff:ff","0.0.0.0","255.255.255.255","17",,,"68","67","308",,,,
+"2","Jun 17, 2020 10:29:00.121633000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","ff:ff:ff:ff:ff:ff","0.0.0.0","255.255.255.255","17",,,"68","67","308",,,,
+"3","Jun 17, 2020 10:29:02.609766000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","ff:ff:ff:ff:ff:ff","0.0.0.0","255.255.255.255","17",,,"68","67","308",,,,
+"4","Jun 17, 2020 10:29:05.279995000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","52.210.117.226","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","42914","0"
+"5","Jun 17, 2020 10:29:05.309468000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","52.210.117.226","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","42914","0"
+"6","Jun 17, 2020 10:29:05.310862000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","52.210.117.226","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","42914","1448"
+"7","Jun 17, 2020 10:29:05.310943000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","52.210.117.226","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","42914","1199"
+"8","Jun 17, 2020 10:29:05.343323000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","52.210.117.226","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","42914","51"
+"9","Jun 17, 2020 10:29:05.389289000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.48.207.250","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64016","165"
+"10","Jun 17, 2020 10:29:05.413735000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","52.210.117.226","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","42914","0"
+"11","Jun 17, 2020 10:29:05.473074000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","a8:9c:ed:52:b4:4b","52.210.117.226","192.168.2.3","6",,,,,,"Xiaomi Communications Co Ltd","443","42914","189"
+"12","Jun 17, 2020 10:29:05.474623000 Mitteleuropäische Sommerzeit","d0:37:45:53:9a:9d","1c:3b:f3:4d:36:04","52.48.207.250","192.168.2.5","6",,,,,,"Tp-Link Technologies Co.,Ltd.","443","64016","0"
+"13","Jun 17, 2020 10:29:06.683945000 Mitteleuropäische Sommerzeit","66:7c:70:fd:39:d1","ff:ff:ff:ff:ff:ff","0.0.0.0","255.255.255.255","17",,,"68","67","308",,,,
